@@ -1,23 +1,57 @@
 ---
-name: google-calendar-study-scheduler
-description: Programa recordatorios de estudio de japonés en Google Calendar. Crea eventos matutinos en días laborables con la duración adecuada según el contenido de la lección. Úsala al final de cada lección para agendar la siguiente sesión de estudio.
+name: study-reminder-scheduler
+description: Agenda recordatorios de estudio de japonés. Tiene dos modos — Linux nativo (sin GCP, recomendado) y Google Calendar (requiere GCP). Úsala al final de cada lección para programar la próxima sesión.
 ---
 
-# Skill: Google Calendar Study Scheduler 📅
+# Skill: Study Reminder Scheduler 📅
 
 ## Descripción
-Integra Google Calendar para crear recordatorios de estudio automáticos. Los agentes estiman la duración de la sesión según el contenido planificado y crean el evento con todos los detalles relevantes para que el estudiante llegue preparado.
+Programa recordatorios de estudio usando el mejor método disponible. **Prioriza siempre el método Linux nativo** (`notify-send` + systemd/cron) ya que no requiere ninguna cuenta externa ni configuración de APIs.
 
 ---
 
-## Prerrequisitos
+## ⭐ Método Principal: Linux Nativo (sin GCP)
 
-Antes de usar esta skill, verifica que el estudiante ha ejecutado:
+### Comprobar si está configurado
+Lee `data/progress/student.json` → campo `calendar_settings.reminder_method`:
+- `"linux_native"` → Recordatorios ya configurados ✅
+- No existe o es `null` → Pedir al estudiante que configure con:
+
+```bash
+# Instalar (solo una vez):
+sudo apt install libnotify-bin
+
+# Configurar recordatorio diario:
+bash scripts/setup_reminders.sh              # usa la hora de student.json
+bash scripts/setup_reminders.sh --time 07:30 # cambiar la hora
+```
+
+El script detecta automáticamente si usar **systemd user timer** o **cron**.
+
+### Para agendar la próxima sesión (método Linux)
+
+No hay que hacer nada extra: el recordatorio diario ya corre automáticamente a la hora configurada y lee `student.json` para saber qué tarjetas SRS hay pendientes y en qué lección está el estudiante.
+
+Al final de la lección, simplemente di:
+```
+📅 Tu recordatorio diario está activo a las [hora].
+   Mañana recibirás una notificación con lo que falta revisar.
+   Puedes comprobarlo con: bash scripts/daily_review.sh
+```
+
+---
+
+## Método Alternativo: Google Calendar (requiere GCP)
+
+Solo usar este método si el estudiante quiere los eventos en su Google Calendar para verlos en el móvil.
+
+### Prerrequisitos
+Antes de usar este método, el estudiante debe ejecutar:
 ```bash
 python3 scripts/setup_calendar.py
 ```
 
-Esto configura las credenciales de la API de Google Calendar y guarda el token en `~/.config/japanese_teacher/calendar_token.json`.
+Esto configura las credenciales OAuth y guarda el token en `~/.config/japanese_teacher/calendar_token.json`.
 
 ---
 
