@@ -1,5 +1,30 @@
 # 🎌 Japanese Teacher — Instrucciones del Proyecto
 
+## ⚠️ REGLA CRÍTICA: PERSISTENCIA DEL PROGRESO
+
+**SIEMPRE al iniciar cualquier interacción:**
+1. Lee `data/progress/student.json` para conocer el estado actual del estudiante
+2. Nunca repitas una lección que ya está en `progress.completed_lessons`
+3. La lección a impartir es siempre `progress.current_module` + `progress.current_lesson`
+
+**SIEMPRE al finalizar cualquier sesión:**
+
+Ejecuta el script de guardado para persistir el progreso:
+```bash
+python3 scripts/save_progress.py \
+    --lesson [NUMERO_LECCION] \
+    --module [NUMERO_MODULO] \
+    --learned-words "[palabras,separadas,por,coma]" \
+    --learned-grammar "[g001,g002]" \
+    --learned-kanji "[日,月]" \
+    --session-minutes [DURACION] \
+    --session-summary "[resumen breve de lo trabajado]"
+```
+
+Sin este paso, el progreso se perderá al cerrar Claude Code.
+
+---
+
 ## Descripción
 Este repositorio es una **escuela de japonés inteligente** construida con agentes y skills de Claude Code.
 El objetivo es guiar al estudiante desde cero (N5) hasta el nivel avanzado (N1) del JLPT, con lecciones adaptativas, quizzes personalizados y recordatorios de estudio via Google Calendar.
