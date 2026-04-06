@@ -1,0 +1,29 @@
+{
+  "student": {
+    "name": "Estudiante",
+    "level": "N5",
+    "start_date": null,
+    "total_study_minutes": 0,
+    "current_streak_days": 0,
+    "longest_streak_days": 0
+  },
+  "calendar_settings": {
+    "default_study_time": "07:00",
+    "study_days": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+    "calendar_id": "primary",
+    "timezone": "Europe/Madrid",
+    "reminder_minutes": 10,
+    "max_session_minutes": 60
+  },
+  "progress": {
+    "current_module": 1,
+    "current_lesson": 1,
+    "completed_lessons": [],
+    "vocabulary_known": [],
+    "kanji_known": [],
+    "grammar_known": []
+  },
+  "srs_deck": [],
+  "quiz_history": [],
+  "session_history": []
+}

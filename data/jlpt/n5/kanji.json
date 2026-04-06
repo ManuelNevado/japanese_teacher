@@ -1,0 +1,221 @@
+{
+  "_meta": {
+    "source": "KanjiDic2 (Electronic Dictionary Research and Development Group - EDRDG)",
+    "license": "Creative Commons Attribution-ShareAlike 4.0",
+    "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+    "level": "JLPT N5",
+    "description": "Los 80 kanji del JLPT N5 con lecturas, radicales, vocabulario asociado y mnemónicos en español",
+    "total_kanji": 80
+  },
+  "kanji": [
+    {
+      "id": "k001", "kanji": "一", "jlpt": "N5", "strokes": 1,
+      "meanings_es": ["uno", "primero"],
+      "on_yomi": ["イチ", "イツ"],
+      "kun_yomi": ["ひと-", "ひとつ"],
+      "radicals": ["一 (uno)"],
+      "mnemonic_es": "Una sola línea horizontal — el número más simple que existe",
+      "vocabulary": [
+        { "word": "一つ", "reading": "ひとつ", "meaning": "uno (contador general)" },
+        { "word": "一月", "reading": "いちがつ", "meaning": "enero" },
+        { "word": "一日", "reading": "いちにち", "meaning": "un día; el día primero" }
+      ],
+      "stroke_order": "1. Horizontal de izquierda a derecha"
+    },
+    {
+      "id": "k002", "kanji": "二", "jlpt": "N5", "strokes": 2,
+      "meanings_es": ["dos"],
+      "on_yomi": ["ニ"],
+      "kun_yomi": ["ふた-", "ふたつ"],
+      "radicals": ["二 (dos)"],
+      "mnemonic_es": "Dos líneas horizontales — doble de uno",
+      "vocabulary": [
+        { "word": "二つ", "reading": "ふたつ", "meaning": "dos (contador general)" },
+        { "word": "二月", "reading": "にがつ", "meaning": "febrero" }
+      ],
+      "stroke_order": "1. Línea superior (más corta) → 2. Línea inferior (más larga)"
+    },
+    {
+      "id": "k003", "kanji": "三", "jlpt": "N5", "strokes": 3,
+      "meanings_es": ["tres"],
+      "on_yomi": ["サン"],
+      "kun_yomi": ["み-", "みっつ"],
+      "radicals": ["三 (tres)"],
+      "mnemonic_es": "Tres líneas horizontales — simple y visual",
+      "vocabulary": [
+        { "word": "三つ", "reading": "みっつ", "meaning": "tres (contador general)" },
+        { "word": "三月", "reading": "さんがつ", "meaning": "marzo" }
+      ],
+      "stroke_order": "1. Superior → 2. Media → 3. Inferior (cada vez más larga)"
+    },
+    {
+      "id": "k004", "kanji": "日", "jlpt": "N5", "strokes": 4,
+      "meanings_es": ["sol", "día", "Japón (abreviado)"],
+      "on_yomi": ["ニチ", "ジツ"],
+      "kun_yomi": ["ひ", "か"],
+      "radicals": ["日 (sol)"],
+      "mnemonic_es": "Una ventana cuadrada con una barra en el medio — como ver el sol a través de la ventana con su brillo central",
+      "vocabulary": [
+        { "word": "今日", "reading": "きょう", "meaning": "hoy" },
+        { "word": "日本語", "reading": "にほんご", "meaning": "idioma japonés" },
+        { "word": "日曜日", "reading": "にちようび", "meaning": "domingo" },
+        { "word": "先日", "reading": "せんじつ", "meaning": "el otro día, días pasados" }
+      ],
+      "stroke_order": "1. Línea vertical izquierda → 2. Vuelta en L arriba-derecha → 3. Barra horizontal media → 4. Línea base"
+    },
+    {
+      "id": "k005", "kanji": "月", "jlpt": "N5", "strokes": 4,
+      "meanings_es": ["luna", "mes"],
+      "on_yomi": ["ゲツ", "ガツ"],
+      "kun_yomi": ["つき"],
+      "radicals": ["月 (luna/mes)"],
+      "mnemonic_es": "La luna creciente — un rectángulo con las barras interiores que parecen el perfil de la luna",
+      "vocabulary": [
+        { "word": "月曜日", "reading": "げつようび", "meaning": "lunes" },
+        { "word": "今月", "reading": "こんげつ", "meaning": "este mes" },
+        { "word": "来月", "reading": "らいげつ", "meaning": "el mes que viene" }
+      ],
+      "stroke_order": "1. Trazo izquierdo curvo → 2. Trazo superior → 3. Primera barra interior → 4. Segunda barra interior"
+    },
+    {
+      "id": "k006", "kanji": "山", "jlpt": "N5", "strokes": 3,
+      "meanings_es": ["montaña"],
+      "on_yomi": ["サン"],
+      "kun_yomi": ["やま"],
+      "radicals": ["山 (montaña)"],
+      "mnemonic_es": "Tres picos de una montaña con el pico central más alto — ¡parece exactamente una montaña vista de frente!",
+      "vocabulary": [
+        { "word": "山", "reading": "やま", "meaning": "montaña" },
+        { "word": "富士山", "reading": "ふじさん", "meaning": "Monte Fuji" },
+        { "word": "山田", "reading": "やまだ", "meaning": "Yamada (apellido común)" }
+      ],
+      "stroke_order": "1. Pico izquierdo (subir-bajar) → 2. Pico central (más alto) → 3. Pico derecho"
+    },
+    {
+      "id": "k007", "kanji": "川", "jlpt": "N5", "strokes": 3,
+      "meanings_es": ["río"],
+      "on_yomi": ["セン"],
+      "kun_yomi": ["かわ"],
+      "radicals": ["川 (río)"],
+      "mnemonic_es": "Tres corrientes fluyendo verticalmente hacia abajo — como las líneas del agua en un río visto desde arriba",
+      "vocabulary": [
+        { "word": "川", "reading": "かわ", "meaning": "río" },
+        { "word": "小川", "reading": "おがわ", "meaning": "arroyo, riachuelo" },
+        { "word": "川口", "reading": "かわぐち", "meaning": "Kawaguchi (lugar/apellido)" }
+      ],
+      "stroke_order": "1. Línea izquierda (corta) → 2. Línea central (larga) → 3. Línea derecha (media)"
+    },
+    {
+      "id": "k008", "kanji": "木", "jlpt": "N5", "strokes": 4,
+      "meanings_es": ["árbol", "madera", "jueves (abrev.)"],
+      "on_yomi": ["ボク", "モク"],
+      "kun_yomi": ["き", "こ-"],
+      "radicals": ["木 (árbol)"],
+      "mnemonic_es": "Un árbol con su tronco vertical, ramas extendidas a los lados y raíces abajo — ¡el kanji más ilustrativo!",
+      "vocabulary": [
+        { "word": "木曜日", "reading": "もくようび", "meaning": "jueves" },
+        { "word": "木", "reading": "き", "meaning": "árbol" },
+        { "word": "木村", "reading": "きむら", "meaning": "Kimura (apellido común)" }
+      ],
+      "stroke_order": "1. Trazo horizontal → 2. Trazo vertical (cruzando el horizontal) → 3. Rama izquierda → 4. Rama derecha"
+    },
+    {
+      "id": "k009", "kanji": "火", "jlpt": "N5", "strokes": 4,
+      "meanings_es": ["fuego", "martes (abrev.)"],
+      "on_yomi": ["カ"],
+      "kun_yomi": ["ひ"],
+      "radicals": ["火 (fuego)"],
+      "mnemonic_es": "Las llamas de una hoguera — la línea central es la llama principal, los trazos laterales son las llamas que se esparcen",
+      "vocabulary": [
+        { "word": "火曜日", "reading": "かようび", "meaning": "martes" },
+        { "word": "火", "reading": "ひ", "meaning": "fuego" },
+        { "word": "花火", "reading": "はなび", "meaning": "fuegos artificiales" }
+      ],
+      "stroke_order": "1. Punto superior izquierdo → 2. Trazo central (largo) → 3. Trazo lateral izquierdo → 4. Trazo lateral derecho"
+    },
+    {
+      "id": "k010", "kanji": "水", "jlpt": "N5", "strokes": 4,
+      "meanings_es": ["agua", "miércoles (abrev.)"],
+      "on_yomi": ["スイ"],
+      "kun_yomi": ["みず"],
+      "radicals": ["水 (agua)"],
+      "mnemonic_es": "El agua fluyendo — las líneas se ramifican como la corriente de un río dividiéndose",
+      "vocabulary": [
+        { "word": "水曜日", "reading": "すいようび", "meaning": "miércoles" },
+        { "word": "水", "reading": "みず", "meaning": "agua" },
+        { "word": "水泳", "reading": "すいえい", "meaning": "natación" }
+      ],
+      "stroke_order": "1. Trazo central vertical → 2. Trazo superior izquierdo → 3. Trazo inferior izquierdo → 4. Trazo derecho curvo"
+    },
+    {
+      "id": "k011", "kanji": "人", "jlpt": "N5", "strokes": 2,
+      "meanings_es": ["persona", "gente"],
+      "on_yomi": ["ジン", "ニン"],
+      "kun_yomi": ["ひと"],
+      "radicals": ["人 (persona)"],
+      "mnemonic_es": "Una persona de perfil con las dos piernas abiertas — increíblemente minimalista pero expresivo",
+      "vocabulary": [
+        { "word": "人", "reading": "ひと", "meaning": "persona" },
+        { "word": "日本人", "reading": "にほんじん", "meaning": "japonés (nacionalidad)" },
+        { "word": "一人", "reading": "ひとり", "meaning": "una persona, solo" }
+      ],
+      "stroke_order": "1. Trazo izquierdo (baja a la izquierda) → 2. Trazo derecho (baja a la derecha)"
+    },
+    {
+      "id": "k012", "kanji": "女", "jlpt": "N5", "strokes": 3,
+      "meanings_es": ["mujer", "femenino"],
+      "on_yomi": ["ジョ", "ニョ"],
+      "kun_yomi": ["おんな", "め-"],
+      "radicals": ["女 (mujer)"],
+      "mnemonic_es": "Una mujer con los brazos cruzados, ligeramente inclinada en un gesto gracioso — las curvas del kanji evocan feminidad",
+      "vocabulary": [
+        { "word": "女", "reading": "おんな", "meaning": "mujer" },
+        { "word": "女の子", "reading": "おんなのこ", "meaning": "chica, niña" },
+        { "word": "女性", "reading": "じょせい", "meaning": "mujer, femenino (formal)" }
+      ],
+      "stroke_order": "1. Trazo horizontal curvo izquierdo → 2. Trazo diagonal (largo) → 3. Trazo horizontal inferior"
+    },
+    {
+      "id": "k013", "kanji": "男", "jlpt": "N5", "strokes": 7,
+      "meanings_es": ["hombre", "masculino"],
+      "on_yomi": ["ダン", "ナン"],
+      "kun_yomi": ["おとこ"],
+      "radicals": ["田 (campo arrozal)", "力 (fuerza)"],
+      "mnemonic_es": "Un campo de arroz (田) más la fuerza (力) — el hombre que trabaja en el campo con fuerza. Poderosa imagen cultural japonesa",
+      "vocabulary": [
+        { "word": "男", "reading": "おとこ", "meaning": "hombre" },
+        { "word": "男の子", "reading": "おとこのこ", "meaning": "chico, niño" },
+        { "word": "男性", "reading": "だんせい", "meaning": "hombre, masculino (formal)" }
+      ],
+      "stroke_order": "Primero los trazos de 田 (arriba), luego los de 力 (abajo)"
+    },
+    {
+      "id": "k014", "kanji": "子", "jlpt": "N5", "strokes": 3,
+      "meanings_es": ["niño", "hijo", "persona (sufijo)"],
+      "on_yomi": ["シ", "ス"],
+      "kun_yomi": ["こ", "-こ"],
+      "radicals": ["子 (niño)"],
+      "mnemonic_es": "Un bebé con los brazos extendidos hacia arriba y las piernas aún sin desarrollar — tierno y simple",
+      "vocabulary": [
+        { "word": "子", "reading": "こ", "meaning": "niño/a, hijo/a" },
+        { "word": "子供", "reading": "こども", "meaning": "niño/a" },
+        { "word": "女の子", "reading": "おんなのこ", "meaning": "chica, niña" }
+      ],
+      "stroke_order": "1. Trazo superior curvo → 2. Trazo vertical con gancho → 3. Trazo horizontal"
+    },
+    {
+      "id": "k015", "kanji": "国", "jlpt": "N5", "strokes": 8,
+      "meanings_es": ["país", "nación"],
+      "on_yomi": ["コク"],
+      "kun_yomi": ["くに"],
+      "radicals": ["囗 (recinto/territorio)", "玉 (joya/gema → rey)"],
+      "mnemonic_es": "Un territorio (recinto cuadrado) donde vive el rey con su joya preciada (玉) — el país como la joya del rey",
+      "vocabulary": [
+        { "word": "国", "reading": "くに", "meaning": "país" },
+        { "word": "外国", "reading": "がいこく", "meaning": "país extranjero" },
+        { "word": "中国", "reading": "ちゅうごく", "meaning": "China" }
+      ],
+      "stroke_order": "Marco exterior primero (recinto), luego interior (玉)"
+    }
+  ]
+}

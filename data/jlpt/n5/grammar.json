@@ -1,0 +1,232 @@
+{
+  "_meta": {
+    "source": "Basado en el currículo oficial JLPT N5 y recursos pedagógicos de japonés",
+    "level": "JLPT N5",
+    "description": "Patrones gramaticales esenciales del JLPT N5 con explicaciones en español",
+    "total_patterns": 24
+  },
+  "grammar": [
+    {
+      "id": "g001", "pattern": "～です", "romaji": "~desu",
+      "jlpt": "N5", "category": "copula",
+      "function_es": "Cópula formal — equivale a 'es/soy/eres' en registro educado",
+      "structure": "[Nombre/Adjetivo-na] + です",
+      "formality": "polite",
+      "examples": [
+        { "jp": "私は学生です。", "romaji": "Watashi wa gakusei desu.", "es": "Soy estudiante." },
+        { "jp": "田中さんは先生です。", "romaji": "Tanaka-san wa sensei desu.", "es": "El Sr. Tanaka es profesor." },
+        { "jp": "今日は月曜日です。", "romaji": "Kyou wa getsuyoubi desu.", "es": "Hoy es lunes." }
+      ],
+      "negative": "～ではありません (de wa arimasen) / ～じゃないです (ja nai desu)",
+      "past": "～でした (deshita)",
+      "common_mistakes": ["No uses です con adjetivos-い directamente en formas complejas", "No uses です en registro informal — usa だ (da)"],
+      "jlpt_frequency": "muy alta"
+    },
+    {
+      "id": "g002", "pattern": "～は～です", "romaji": "~wa ~desu",
+      "jlpt": "N5", "category": "basic_sentence",
+      "function_es": "Estructura básica de oración: 'X es Y'. は marca el tema de la conversación",
+      "structure": "[Tema] は [Predicado] です",
+      "formality": "polite",
+      "examples": [
+        { "jp": "これは本です。", "romaji": "Kore wa hon desu.", "es": "Esto es un libro." },
+        { "jp": "あの人は友達です。", "romaji": "Ano hito wa tomodachi desu.", "es": "Esa persona es mi amigo." },
+        { "jp": "東京は日本の首都です。", "romaji": "Toukyou wa Nihon no shuto desu.", "es": "Tokio es la capital de Japón." }
+      ],
+      "common_mistakes": ["Confundir は (tema) con が (sujeto) — は introduce de qué hablamos, が introduce información nueva"],
+      "jlpt_frequency": "muy alta"
+    },
+    {
+      "id": "g003", "pattern": "～ます/～ません/～ました", "romaji": "~masu/~masen/~mashita",
+      "jlpt": "N5", "category": "verb_conjugation",
+      "function_es": "Formas polite del verbo: presente/futuro, negativo presente, pasado",
+      "structure": "[Raíz del verbo] + ます/ません/ました",
+      "formality": "polite",
+      "examples": [
+        { "jp": "毎朝ご飯を食べます。", "romaji": "Maiasa gohan wo tabemasu.", "es": "Como arroz todas las mañanas." },
+        { "jp": "肉を食べません。", "romaji": "Niku wo tabemasen.", "es": "No como carne." },
+        { "jp": "昨日学校に行きました。", "romaji": "Kinou gakkou ni ikimashita.", "es": "Ayer fui a la escuela." }
+      ],
+      "chart": {
+        "ru_verbs": { "食べる": { "masu": "食べます", "masen": "食べません", "mashita": "食べました" } },
+        "u_verbs": { "行く": { "masu": "行きます", "masen": "行きません", "mashita": "行きました" } },
+        "irregular": { "する": { "masu": "します", "masen": "しません", "mashita": "しました" }, "くる": { "masu": "きます", "masen": "きません", "mashita": "きました" } }
+      },
+      "jlpt_frequency": "muy alta"
+    },
+    {
+      "id": "g004", "pattern": "Nは Nが好きです/嫌いです", "romaji": "N wa N ga suki desu/kirai desu",
+      "jlpt": "N5", "category": "likes_dislikes",
+      "function_es": "Expresar gusto o disgusto. Nota: en japonés lo que gusta va con が, no を",
+      "structure": "[Persona] は [Cosa] が 好き/嫌い です",
+      "formality": "polite",
+      "examples": [
+        { "jp": "私は寿司が好きです。", "romaji": "Watashi wa sushi ga suki desu.", "es": "Me gusta el sushi." },
+        { "jp": "彼は野菜が嫌いです。", "romaji": "Kare wa yasai ga kirai desu.", "es": "A él no le gustan las verduras." },
+        { "jp": "日本語が好きですか。", "romaji": "Nihongo ga suki desu ka.", "es": "¿Te gusta el japonés?" }
+      ],
+      "common_mistakes": ["Usar を en lugar de が con 好き/嫌い", "好き es adjetivo-na, no verbo"],
+      "jlpt_frequency": "alta"
+    },
+    {
+      "id": "g005", "pattern": "～てください", "romaji": "~te kudasai",
+      "jlpt": "N5", "category": "requests",
+      "function_es": "Petición formal y educada: 'por favor haz ~'",
+      "structure": "[Forma て del verbo] + ください",
+      "formality": "polite",
+      "examples": [
+        { "jp": "ここに名前を書いてください。", "romaji": "Koko ni namae wo kaite kudasai.", "es": "Por favor, escribe tu nombre aquí." },
+        { "jp": "ゆっくり話してください。", "romaji": "Yukkuri hanashite kudasai.", "es": "Por favor, habla despacio." },
+        { "jp": "窓を開けてください。", "romaji": "Mado wo akete kudasai.", "es": "Por favor, abre la ventana." }
+      ],
+      "te_form_rules": {
+        "u_verbs": { "く→いて": "書く→書いて", "ぐ→いで": "泳ぐ→泳いで", "す→して": "話す→話して", "む/ぬ/ぶ→んで": "飲む→飲んで", "る/つ/う→って": "帰る→帰って" },
+        "ru_verbs": "Quitar る, añadir て: 食べる→食べて",
+        "irregular": { "する→して": "します→して", "くる→きて": "きます→きて" }
+      },
+      "jlpt_frequency": "muy alta"
+    },
+    {
+      "id": "g006", "pattern": "～たい", "romaji": "~tai",
+      "jlpt": "N5", "category": "desire",
+      "function_es": "Expresar deseo personal: 'quiero hacer ~'. Solo para los deseos propios del hablante",
+      "structure": "[Raíz del verbo en ます] + たい",
+      "formality": "polite/neutral",
+      "examples": [
+        { "jp": "日本に行きたいです。", "romaji": "Nihon ni ikitai desu.", "es": "Quiero ir a Japón." },
+        { "jp": "ラーメンを食べたいです。", "romaji": "Raamen wo tabetai desu.", "es": "Quiero comer ramen." },
+        { "jp": "日本語を話したいです。", "romaji": "Nihongo wo hanashitai desu.", "es": "Quiero hablar japonés." }
+      ],
+      "common_mistakes": ["たい solo se usa para deseos propios, no para hablar de deseos de terceros (para eso se usa ～たがっている)"],
+      "conjugation": { "affirmative": "食べたい", "negative": "食べたくない", "past": "食べたかった" },
+      "jlpt_frequency": "alta"
+    },
+    {
+      "id": "g007", "pattern": "～ている", "romaji": "~te iru",
+      "jlpt": "N5", "category": "progressive_state",
+      "function_es": "1) Acción en curso (está haciendo ~). 2) Estado resultante (está casado, etc.)",
+      "structure": "[Forma て del verbo] + いる/います",
+      "formality": "polite con います, informal con いる",
+      "examples": [
+        { "jp": "今、本を読んでいます。", "romaji": "Ima, hon wo yonde imasu.", "es": "Ahora mismo estoy leyendo un libro." },
+        { "jp": "田中さんは結婚しています。", "romaji": "Tanaka-san wa kekkon shite imasu.", "es": "El Sr. Tanaka está casado (estado)." },
+        { "jp": "日本語を勉強しています。", "romaji": "Nihongo wo benkyou shite imasu.", "es": "Estoy estudiando japonés." }
+      ],
+      "common_mistakes": ["No es solo 'estar haciendo' — ている también expresa estados permanentes o resultantes"],
+      "jlpt_frequency": "muy alta"
+    },
+    {
+      "id": "g008", "pattern": "NにNがあります/います", "romaji": "N ni N ga arimasu/imasu",
+      "jlpt": "N5", "category": "existence",
+      "function_es": "Existencia: 'hay X en Y'. あります para cosas inanimadas, います para animadas (personas, animales)",
+      "structure": "[Lugar] に [Cosa/Persona] が あります/います",
+      "formality": "polite",
+      "examples": [
+        { "jp": "机の上に本があります。", "romaji": "Tsukue no ue ni hon ga arimasu.", "es": "Hay un libro encima de la mesa." },
+        { "jp": "公園に子供がいます。", "romaji": "Kouen ni kodomo ga imasu.", "es": "Hay niños en el parque." },
+        { "jp": "冷蔵庫にビールがありますか。", "romaji": "Reizouko ni biiru ga arimasu ka.", "es": "¿Hay cerveza en la nevera?" }
+      ],
+      "key_distinction": "あります = cosas (inanimadas) | います = personas y animales (animados)",
+      "location_words": ["の上に (encima)", "の下に (debajo)", "の中に (dentro)", "の前に (delante)", "の後ろに (detrás)", "の隣に (al lado)"],
+      "jlpt_frequency": "muy alta"
+    },
+    {
+      "id": "g009", "pattern": "～から～まで", "romaji": "~kara ~made",
+      "jlpt": "N5", "category": "range",
+      "function_es": "Indica rango de tiempo o espacio: 'desde ~ hasta ~'",
+      "structure": "[Inicio] から [Fin] まで",
+      "formality": "neutral",
+      "examples": [
+        { "jp": "9時から5時まで働きます。", "romaji": "Kuji kara goji made hatarakimasu.", "es": "Trabajo de las 9 a las 5." },
+        { "jp": "月曜日から金曜日まで学校があります。", "romaji": "Getsuyoubi kara kin-youbi made gakkou ga arimasu.", "es": "Hay escuela de lunes a viernes." },
+        { "jp": "東京から大阪まで電車で行きます。", "romaji": "Toukyou kara Oosaka made densha de ikimasu.", "es": "Voy de Tokio a Osaka en tren." }
+      ],
+      "jlpt_frequency": "alta"
+    },
+    {
+      "id": "g010", "pattern": "Adj-いです / Adj-なです", "romaji": "Adj-i desu / Adj-na desu",
+      "jlpt": "N5", "category": "adjectives",
+      "function_es": "Uso de adjetivos en posición predicativa (después del sustantivo que describen)",
+      "structure": {
+        "i_adj": "[Adj-い] + です (se mantiene la い)",
+        "na_adj": "[Adj-な] + です (se quita な)"
+      },
+      "formality": "polite",
+      "examples": [
+        { "jp": "この映画は面白いです。", "romaji": "Kono eiga wa omoshiroi desu.", "es": "Esta película es interesante. (adj-い)" },
+        { "jp": "田中さんは親切です。", "romaji": "Tanaka-san wa shinsetsu desu.", "es": "El Sr. Tanaka es amable. (adj-な)" }
+      ],
+      "negation": {
+        "i_adj": "面白い → 面白くないです (quita い, añade くない)",
+        "na_adj": "親切 → 親切ではありません"
+      },
+      "past": {
+        "i_adj": "面白い → 面白かったです",
+        "na_adj": "親切 → 親切でした"
+      },
+      "common_mistakes": ["いい (bueno) es irregular: negativo よくない, pasado よかった"],
+      "jlpt_frequency": "muy alta"
+    },
+    {
+      "id": "g011", "pattern": "Partícula に (tiempo/dirección/lugar)", "romaji": "ni",
+      "jlpt": "N5", "category": "particles",
+      "function_es": "に marca: 1) destino de movimiento, 2) momento específico de tiempo, 3) lugar de existencia",
+      "uses": [
+        { "use": "Destino", "example": "学校に行きます", "translation": "Voy a la escuela" },
+        { "use": "Tiempo específico", "example": "3時に起きます", "translation": "Me levanto a las 3" },
+        { "use": "Lugar de existencia", "example": "机の上に本があります", "translation": "Hay un libro en la mesa" }
+      ],
+      "common_mistakes": ["に vs で: に para existencia y destino; で para lugar donde ocurre una acción"],
+      "jlpt_frequency": "muy alta"
+    },
+    {
+      "id": "g012", "pattern": "Partícula で (lugar de acción/medio)", "romaji": "de",
+      "jlpt": "N5", "category": "particles",
+      "function_es": "で marca: 1) lugar donde se realiza una acción, 2) medio o instrumento, 3) material",
+      "uses": [
+        { "use": "Lugar de acción", "example": "図書館で本を読みます", "translation": "Leo en la biblioteca" },
+        { "use": "Medio/transporte", "example": "バスで行きます", "translation": "Voy en autobús" },
+        { "use": "Instrumento", "example": "ペンで書きます", "translation": "Escribo con bolígrafo" }
+      ],
+      "common_mistakes": ["で vs に: En 公園で遊びます (acción=で) vs 公園にいます (existencia=に)"],
+      "jlpt_frequency": "muy alta"
+    },
+    {
+      "id": "g013", "pattern": "～も", "romaji": "~mo",
+      "jlpt": "N5", "category": "particles",
+      "function_es": "も reemplaza a は/が/を para significar 'también' o 'tampoco'",
+      "structure": "[Sustantivo] も [Predicado]",
+      "examples": [
+        { "jp": "私も学生です。", "romaji": "Watashi mo gakusei desu.", "es": "Yo también soy estudiante." },
+        { "jp": "日本語も話せます。", "romaji": "Nihongo mo hanasemasu.", "es": "También hablo japonés." },
+        { "jp": "私もわかりません。", "romaji": "Watashi mo wakarimasen.", "es": "Yo tampoco entiendo." }
+      ],
+      "jlpt_frequency": "alta"
+    },
+    {
+      "id": "g014", "pattern": "Nの N (posesión/modificación)", "romaji": "N no N",
+      "jlpt": "N5", "category": "particles",
+      "function_es": "の conecta dos sustantivos: posesión, origen, categoría o descripción",
+      "structure": "[Modificador] の [Sustantivo]",
+      "examples": [
+        { "jp": "私の本です。", "romaji": "Watashi no hon desu.", "es": "Es mi libro. (posesión)" },
+        { "jp": "日本の料理が好きです。", "romaji": "Nihon no ryouri ga suki desu.", "es": "Me gusta la comida japonesa. (origen)" },
+        { "jp": "先生の田中さん", "romaji": "Sensei no Tanaka-san", "es": "El profesor Tanaka. (categoría)" }
+      ],
+      "jlpt_frequency": "muy alta"
+    },
+    {
+      "id": "g015", "pattern": "～ませんか / ～ましょう", "romaji": "~masen ka / ~mashou",
+      "jlpt": "N5", "category": "invitations_suggestions",
+      "function_es": "Invitaciones y sugerencias: '¿No hacemos ~?' / 'Hagamos ~'",
+      "structure": "[Raíz del verbo] + ませんか/ましょう",
+      "examples": [
+        { "jp": "一緒に食べませんか。", "romaji": "Issho ni tabemasen ka.", "es": "¿No comemos juntos?" },
+        { "jp": "映画を見ましょう。", "romaji": "Eiga wo mimashou.", "es": "Vamos a ver una película." },
+        { "jp": "始めましょう。", "romaji": "Hajimemashou.", "es": "Empecemos." }
+      ],
+      "nuance": "ませんか = invitación más suave (pregunta); ましょう = propuesta más directa o acuerdo",
+      "jlpt_frequency": "alta"
+    }
+  ]
+}

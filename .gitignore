@@ -1,0 +1,7 @@
+credentials.json
+data/progress/student.json
+~/.config/japanese_teacher/
+*.pyc
+__pycache__/
+.env
+.DS_Store

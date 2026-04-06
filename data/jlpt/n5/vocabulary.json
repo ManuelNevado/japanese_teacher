@@ -1,0 +1,378 @@
+{
+  "_meta": {
+    "source": "JMdict (Electronic Dictionary Research and Development Group - EDRDG)",
+    "license": "Creative Commons Attribution-ShareAlike 4.0",
+    "url": "https://www.edrdg.org/jmdict/j_jmdict.html",
+    "level": "JLPT N5",
+    "description": "Vocabulario básico JLPT N5 — 103 palabras esenciales. Para la lista completa (800 palabras) ejecuta: python3 scripts/fetch_jmdict.py --level N5",
+    "last_updated": "2024-01-01",
+    "total_words": 103
+  },
+  "vocabulary": [
+    {
+      "id": "v001", "word": "私", "reading": "わたし", "romaji": "watashi",
+      "meanings": ["yo (pronombre personal formal)"],
+      "part_of_speech": "pronoun", "jlpt": "N5", "category": "pronouns",
+      "example": { "jp": "私は学生です。", "reading": "わたしはがくせいです。",
+        "romaji": "Watashi wa gakusei desu.", "es": "Yo soy estudiante." }
+    },
+    {
+      "id": "v002", "word": "あなた", "reading": "あなた", "romaji": "anata",
+      "meanings": ["tú, usted"],
+      "part_of_speech": "pronoun", "jlpt": "N5", "category": "pronouns",
+      "example": { "jp": "あなたの名前は何ですか。", "reading": "あなたのなまえはなんですか。",
+        "romaji": "Anata no namae wa nan desu ka.", "es": "¿Cuál es tu nombre?" }
+    },
+    {
+      "id": "v003", "word": "学校", "reading": "がっこう", "romaji": "gakkou",
+      "meanings": ["escuela, colegio"],
+      "part_of_speech": "noun", "jlpt": "N5", "category": "places",
+      "example": { "jp": "毎日学校に行きます。", "reading": "まいにちがっこうにいきます。",
+        "romaji": "Mainichi gakkou ni ikimasu.", "es": "Voy a la escuela todos los días." }
+    },
+    {
+      "id": "v004", "word": "先生", "reading": "せんせい", "romaji": "sensei",
+      "meanings": ["profesor, maestro, doctor"],
+      "part_of_speech": "noun", "jlpt": "N5", "category": "people",
+      "example": { "jp": "田中先生はやさしいです。", "reading": "たなかせんせいはやさしいです。",
+        "romaji": "Tanaka-sensei wa yasashii desu.", "es": "El profesor Tanaka es amable." }
+    },
+    {
+      "id": "v005", "word": "学生", "reading": "がくせい", "romaji": "gakusei",
+      "meanings": ["estudiante"],
+      "part_of_speech": "noun", "jlpt": "N5", "category": "people",
+      "example": { "jp": "私は大学生です。", "reading": "わたしはだいがくせいです。",
+        "romaji": "Watashi wa daigakusei desu.", "es": "Soy estudiante universitario." }
+    },
+    {
+      "id": "v006", "word": "友達", "reading": "ともだち", "romaji": "tomodachi",
+      "meanings": ["amigo, amiga"],
+      "part_of_speech": "noun", "jlpt": "N5", "category": "people",
+      "example": { "jp": "友達と映画を見ました。", "reading": "ともだちとえいがをみました。",
+        "romaji": "Tomodachi to eiga wo mimashita.", "es": "Fui a ver una película con un amigo." }
+    },
+    {
+      "id": "v007", "word": "家族", "reading": "かぞく", "romaji": "kazoku",
+      "meanings": ["familia"],
+      "part_of_speech": "noun", "jlpt": "N5", "category": "family",
+      "example": { "jp": "家族は五人です。", "reading": "かぞくはごにんです。",
+        "romaji": "Kazoku wa gonin desu.", "es": "Mi familia tiene cinco personas." }
+    },
+    {
+      "id": "v008", "word": "父", "reading": "ちち", "romaji": "chichi",
+      "meanings": ["padre (mi padre)"],
+      "part_of_speech": "noun", "jlpt": "N5", "category": "family",
+      "note": "Para referirse al padre de otro se usa お父さん (otousan)",
+      "example": { "jp": "父は会社員です。", "reading": "ちちはかいしゃいんです。",
+        "romaji": "Chichi wa kaishain desu.", "es": "Mi padre es empleado de oficina." }
+    },
+    {
+      "id": "v009", "word": "母", "reading": "はは", "romaji": "haha",
+      "meanings": ["madre (mi madre)"],
+      "part_of_speech": "noun", "jlpt": "N5", "category": "family",
+      "note": "Para referirse a la madre de otro se usa お母さん (okaasan)",
+      "example": { "jp": "母は料理が上手です。", "reading": "はははりょうりがじょうずです。",
+        "romaji": "Haha wa ryouri ga jouzu desu.", "es": "Mi madre cocina muy bien." }
+    },
+    {
+      "id": "v010", "word": "水", "reading": "みず", "romaji": "mizu",
+      "meanings": ["agua"],
+      "part_of_speech": "noun", "jlpt": "N5", "category": "food_drink",
+      "example": { "jp": "水をください。", "reading": "みずをください。",
+        "romaji": "Mizu wo kudasai.", "es": "Agua, por favor." }
+    },
+    {
+      "id": "v011", "word": "食べ物", "reading": "たべもの", "romaji": "tabemono",
+      "meanings": ["comida, alimento"],
+      "part_of_speech": "noun", "jlpt": "N5", "category": "food_drink",
+      "example": { "jp": "好きな食べ物は何ですか。", "reading": "すきなたべものはなんですか。",
+        "romaji": "Suki na tabemono wa nan desu ka.", "es": "¿Cuál es tu comida favorita?" }
+    },
+    {
+      "id": "v012", "word": "ご飯", "reading": "ごはん", "romaji": "gohan",
+      "meanings": ["arroz cocido; comida/meal en general"],
+      "part_of_speech": "noun", "jlpt": "N5", "category": "food_drink",
+      "example": { "jp": "毎朝ご飯を食べます。", "reading": "まいあさごはんをたべます。",
+        "romaji": "Maiasa gohan wo tabemasu.", "es": "Como arroz todas las mañanas." }
+    },
+    {
+      "id": "v013", "word": "行く", "reading": "いく", "romaji": "iku",
+      "meanings": ["ir"],
+      "part_of_speech": "verb-u", "jlpt": "N5", "category": "movement_verbs",
+      "conjugations": { "masu": "いきます", "masen": "いきません", "mashita": "いきました", "te": "いって", "nai": "いかない" },
+      "example": { "jp": "学校に行きます。", "reading": "がっこうにいきます。",
+        "romaji": "Gakkou ni ikimasu.", "es": "Voy a la escuela." }
+    },
+    {
+      "id": "v014", "word": "来る", "reading": "くる", "romaji": "kuru",
+      "meanings": ["venir"],
+      "part_of_speech": "verb-irregular", "jlpt": "N5", "category": "movement_verbs",
+      "conjugations": { "masu": "きます", "masen": "きません", "mashita": "きました", "te": "きて", "nai": "こない" },
+      "example": { "jp": "明日来てください。", "reading": "あしたきてください。",
+        "romaji": "Ashita kite kudasai.", "es": "Por favor ven mañana." }
+    },
+    {
+      "id": "v015", "word": "見る", "reading": "みる", "romaji": "miru",
+      "meanings": ["ver, mirar"],
+      "part_of_speech": "verb-ru", "jlpt": "N5", "category": "daily_verbs",
+      "conjugations": { "masu": "みます", "masen": "みません", "mashita": "みました", "te": "みて", "nai": "みない" },
+      "example": { "jp": "テレビを見ます。", "reading": "テレビをみます。",
+        "romaji": "Terebi wo mimasu.", "es": "Veo la televisión." }
+    },
+    {
+      "id": "v016", "word": "食べる", "reading": "たべる", "romaji": "taberu",
+      "meanings": ["comer"],
+      "part_of_speech": "verb-ru", "jlpt": "N5", "category": "daily_verbs",
+      "conjugations": { "masu": "たべます", "masen": "たべません", "mashita": "たべました", "te": "たべて", "nai": "たべない" },
+      "example": { "jp": "昼ご飯を食べます。", "reading": "ひるごはんをたべます。",
+        "romaji": "Hirugohan wo tabemasu.", "es": "Como el almuerzo." }
+    },
+    {
+      "id": "v017", "word": "飲む", "reading": "のむ", "romaji": "nomu",
+      "meanings": ["beber"],
+      "part_of_speech": "verb-u", "jlpt": "N5", "category": "daily_verbs",
+      "conjugations": { "masu": "のみます", "masen": "のみません", "mashita": "のみました", "te": "のんで", "nai": "のまない" },
+      "example": { "jp": "お茶を飲みます。", "reading": "おちゃをのみます。",
+        "romaji": "Ocha wo nomimasu.", "es": "Bebo té." }
+    },
+    {
+      "id": "v018", "word": "書く", "reading": "かく", "romaji": "kaku",
+      "meanings": ["escribir"],
+      "part_of_speech": "verb-u", "jlpt": "N5", "category": "daily_verbs",
+      "conjugations": { "masu": "かきます", "masen": "かきません", "mashita": "かきました", "te": "かいて", "nai": "かかない" },
+      "example": { "jp": "手紙を書きます。", "reading": "てがみをかきます。",
+        "romaji": "Tegami wo kakimasu.", "es": "Escribo una carta." }
+    },
+    {
+      "id": "v019", "word": "読む", "reading": "よむ", "romaji": "yomu",
+      "meanings": ["leer"],
+      "part_of_speech": "verb-u", "jlpt": "N5", "category": "daily_verbs",
+      "conjugations": { "masu": "よみます", "masen": "よみません", "mashita": "よみました", "te": "よんで", "nai": "よまない" },
+      "example": { "jp": "本を読みます。", "reading": "ほんをよみます。",
+        "romaji": "Hon wo yomimasu.", "es": "Leo un libro." }
+    },
+    {
+      "id": "v020", "word": "話す", "reading": "はなす", "romaji": "hanasu",
+      "meanings": ["hablar"],
+      "part_of_speech": "verb-u", "jlpt": "N5", "category": "daily_verbs",
+      "conjugations": { "masu": "はなします", "masen": "はなしません", "mashita": "はなしました", "te": "はなして", "nai": "はなさない" },
+      "example": { "jp": "日本語を話します。", "reading": "にほんごをはなします。",
+        "romaji": "Nihongo wo hanashimasu.", "es": "Hablo japonés." }
+    },
+    {
+      "id": "v021", "word": "聞く", "reading": "きく", "romaji": "kiku",
+      "meanings": ["escuchar; preguntar"],
+      "part_of_speech": "verb-u", "jlpt": "N5", "category": "daily_verbs",
+      "conjugations": { "masu": "ききます", "masen": "ききません", "mashita": "ききました", "te": "きいて", "nai": "きかない" },
+      "example": { "jp": "音楽を聞きます。", "reading": "おんがくをききます。",
+        "romaji": "Ongaku wo kikimasu.", "es": "Escucho música." }
+    },
+    {
+      "id": "v022", "word": "する", "reading": "する", "romaji": "suru",
+      "meanings": ["hacer"],
+      "part_of_speech": "verb-irregular", "jlpt": "N5", "category": "daily_verbs",
+      "conjugations": { "masu": "します", "masen": "しません", "mashita": "しました", "te": "して", "nai": "しない" },
+      "example": { "jp": "宿題をします。", "reading": "しゅくだいをします。",
+        "romaji": "Shukudai wo shimasu.", "es": "Hago los deberes." }
+    },
+    {
+      "id": "v023", "word": "大きい", "reading": "おおきい", "romaji": "ookii",
+      "meanings": ["grande"],
+      "part_of_speech": "adjective-i", "jlpt": "N5", "category": "adjectives",
+      "example": { "jp": "大きい犬がいます。", "reading": "おおきいいぬがいます。",
+        "romaji": "Ookii inu ga imasu.", "es": "Hay un perro grande." }
+    },
+    {
+      "id": "v024", "word": "小さい", "reading": "ちいさい", "romaji": "chiisai",
+      "meanings": ["pequeño"],
+      "part_of_speech": "adjective-i", "jlpt": "N5", "category": "adjectives",
+      "example": { "jp": "小さい猫がかわいいです。", "reading": "ちいさいねこがかわいいです。",
+        "romaji": "Chiisai neko ga kawaii desu.", "es": "El gato pequeño es adorable." }
+    },
+    {
+      "id": "v025", "word": "新しい", "reading": "あたらしい", "romaji": "atarashii",
+      "meanings": ["nuevo"],
+      "part_of_speech": "adjective-i", "jlpt": "N5", "category": "adjectives",
+      "example": { "jp": "新しい本を買いました。", "reading": "あたらしいほんをかいました。",
+        "romaji": "Atarashii hon wo kaimashita.", "es": "Compré un libro nuevo." }
+    },
+    {
+      "id": "v026", "word": "古い", "reading": "ふるい", "romaji": "furui",
+      "meanings": ["viejo, antiguo"],
+      "part_of_speech": "adjective-i", "jlpt": "N5", "category": "adjectives",
+      "example": { "jp": "古い映画が好きです。", "reading": "ふるいえいががすきです。",
+        "romaji": "Furui eiga ga suki desu.", "es": "Me gustan las películas antiguas." }
+    },
+    {
+      "id": "v027", "word": "高い", "reading": "たかい", "romaji": "takai",
+      "meanings": ["alto; caro"],
+      "part_of_speech": "adjective-i", "jlpt": "N5", "category": "adjectives",
+      "note": "Puede significar 'alto' (altura) o 'caro' (precio) según contexto",
+      "example": { "jp": "この店は高いです。", "reading": "このみせはたかいです。",
+        "romaji": "Kono mise wa takai desu.", "es": "Esta tienda es cara." }
+    },
+    {
+      "id": "v028", "word": "安い", "reading": "やすい", "romaji": "yasui",
+      "meanings": ["barato"],
+      "part_of_speech": "adjective-i", "jlpt": "N5", "category": "adjectives",
+      "example": { "jp": "スーパーは安いです。", "reading": "スーパーはやすいです。",
+        "romaji": "Suupaa wa yasui desu.", "es": "El supermercado es barato." }
+    },
+    {
+      "id": "v029", "word": "今日", "reading": "きょう", "romaji": "kyou",
+      "meanings": ["hoy"],
+      "part_of_speech": "noun/adverb", "jlpt": "N5", "category": "time",
+      "example": { "jp": "今日は月曜日です。", "reading": "きょうはげつようびです。",
+        "romaji": "Kyou wa getsuyoubi desu.", "es": "Hoy es lunes." }
+    },
+    {
+      "id": "v030", "word": "明日", "reading": "あした", "romaji": "ashita",
+      "meanings": ["mañana"],
+      "part_of_speech": "noun/adverb", "jlpt": "N5", "category": "time",
+      "example": { "jp": "明日学校があります。", "reading": "あしたがっこうがあります。",
+        "romaji": "Ashita gakkou ga arimasu.", "es": "Mañana hay escuela." }
+    },
+    {
+      "id": "v031", "word": "昨日", "reading": "きのう", "romaji": "kinou",
+      "meanings": ["ayer"],
+      "part_of_speech": "noun/adverb", "jlpt": "N5", "category": "time",
+      "example": { "jp": "昨日映画を見ました。", "reading": "きのうえいがをみました。",
+        "romaji": "Kinou eiga wo mimashita.", "es": "Ayer vi una película." }
+    },
+    {
+      "id": "v032", "word": "今", "reading": "いま", "romaji": "ima",
+      "meanings": ["ahora"],
+      "part_of_speech": "noun/adverb", "jlpt": "N5", "category": "time",
+      "example": { "jp": "今何時ですか。", "reading": "いまなんじですか。",
+        "romaji": "Ima nanji desu ka.", "es": "¿Qué hora es ahora?" }
+    },
+    {
+      "id": "v033", "word": "毎日", "reading": "まいにち", "romaji": "mainichi",
+      "meanings": ["todos los días, cada día"],
+      "part_of_speech": "noun/adverb", "jlpt": "N5", "category": "time",
+      "example": { "jp": "毎日運動します。", "reading": "まいにちうんどうします。",
+        "romaji": "Mainichi undou shimasu.", "es": "Hago ejercicio todos los días." }
+    },
+    {
+      "id": "v034", "word": "電車", "reading": "でんしゃ", "romaji": "densha",
+      "meanings": ["tren eléctrico, metro"],
+      "part_of_speech": "noun", "jlpt": "N5", "category": "transport",
+      "example": { "jp": "電車で会社に行きます。", "reading": "でんしゃでかいしゃにいきます。",
+        "romaji": "Densha de kaisha ni ikimasu.", "es": "Voy al trabajo en tren." }
+    },
+    {
+      "id": "v035", "word": "駅", "reading": "えき", "romaji": "eki",
+      "meanings": ["estación (de tren/metro)"],
+      "part_of_speech": "noun", "jlpt": "N5", "category": "places",
+      "example": { "jp": "駅はどこですか。", "reading": "えきはどこですか。",
+        "romaji": "Eki wa doko desu ka.", "es": "¿Dónde está la estación?" }
+    },
+    {
+      "id": "v036", "word": "何", "reading": "なに/なん", "romaji": "nani/nan",
+      "meanings": ["qué, qué cosa"],
+      "part_of_speech": "pronoun", "jlpt": "N5", "category": "interrogatives",
+      "note": "なん antes de です、の、か、で; なに en otros contextos",
+      "example": { "jp": "何が好きですか。", "reading": "なにがすきですか。",
+        "romaji": "Nani ga suki desu ka.", "es": "¿Qué te gusta?" }
+    },
+    {
+      "id": "v037", "word": "誰", "reading": "だれ", "romaji": "dare",
+      "meanings": ["quién"],
+      "part_of_speech": "pronoun", "jlpt": "N5", "category": "interrogatives",
+      "example": { "jp": "あの人は誰ですか。", "reading": "あのひとはだれですか。",
+        "romaji": "Ano hito wa dare desu ka.", "es": "¿Quién es esa persona?" }
+    },
+    {
+      "id": "v038", "word": "どこ", "reading": "どこ", "romaji": "doko",
+      "meanings": ["dónde"],
+      "part_of_speech": "pronoun", "jlpt": "N5", "category": "interrogatives",
+      "example": { "jp": "トイレはどこですか。", "reading": "トイレはどこですか。",
+        "romaji": "Toire wa doko desu ka.", "es": "¿Dónde está el baño?" }
+    },
+    {
+      "id": "v039", "word": "いつ", "reading": "いつ", "romaji": "itsu",
+      "meanings": ["cuándo"],
+      "part_of_speech": "pronoun", "jlpt": "N5", "category": "interrogatives",
+      "example": { "jp": "いつ日本に行きましたか。", "reading": "いつにほんにいきましたか。",
+        "romaji": "Itsu Nihon ni ikimashita ka.", "es": "¿Cuándo fuiste a Japón?" }
+    },
+    {
+      "id": "v040", "word": "どう", "reading": "どう", "romaji": "dou",
+      "meanings": ["cómo, de qué manera"],
+      "part_of_speech": "pronoun", "jlpt": "N5", "category": "interrogatives",
+      "example": { "jp": "日本語はどうですか。", "reading": "にほんごはどうですか。",
+        "romaji": "Nihongo wa dou desu ka.", "es": "¿Qué tal el japonés?" }
+    },
+    {
+      "id": "v041", "word": "いくら", "reading": "いくら", "romaji": "ikura",
+      "meanings": ["cuánto (precio)"],
+      "part_of_speech": "pronoun", "jlpt": "N5", "category": "interrogatives",
+      "example": { "jp": "これはいくらですか。", "reading": "これはいくらですか。",
+        "romaji": "Kore wa ikura desu ka.", "es": "¿Cuánto cuesta esto?" }
+    },
+    {
+      "id": "v042", "word": "この", "reading": "この", "romaji": "kono",
+      "meanings": ["este/esta (cerca del hablante)"],
+      "part_of_speech": "determiner", "jlpt": "N5", "category": "kosoado",
+      "example": { "jp": "この本は面白いです。", "reading": "このほんはおもしろいです。",
+        "romaji": "Kono hon wa omoshiroi desu.", "es": "Este libro es interesante." }
+    },
+    {
+      "id": "v043", "word": "その", "reading": "その", "romaji": "sono",
+      "meanings": ["ese/esa (cerca del interlocutor)"],
+      "part_of_speech": "determiner", "jlpt": "N5", "category": "kosoado",
+      "example": { "jp": "その映画を見ましたか。", "reading": "そのえいがをみましたか。",
+        "romaji": "Sono eiga wo mimashita ka.", "es": "¿Viste esa película?" }
+    },
+    {
+      "id": "v044", "word": "日本語", "reading": "にほんご", "romaji": "nihongo",
+      "meanings": ["idioma japonés"],
+      "part_of_speech": "noun", "jlpt": "N5", "category": "language",
+      "example": { "jp": "日本語を勉強しています。", "reading": "にほんごをべんきょうしています。",
+        "romaji": "Nihongo wo benkyou shite imasu.", "es": "Estoy estudiando japonés." }
+    },
+    {
+      "id": "v045", "word": "勉強", "reading": "べんきょう", "romaji": "benkyou",
+      "meanings": ["estudio, estudiar"],
+      "part_of_speech": "noun/verb-suru", "jlpt": "N5", "category": "school",
+      "example": { "jp": "毎日日本語を勉強します。", "reading": "まいにちにほんごをべんきょうします。",
+        "romaji": "Mainichi nihongo wo benkyou shimasu.", "es": "Estudio japonés todos los días." }
+    },
+    {
+      "id": "v046", "word": "本", "reading": "ほん", "romaji": "hon",
+      "meanings": ["libro"],
+      "part_of_speech": "noun", "jlpt": "N5", "category": "objects",
+      "example": { "jp": "図書館で本を読みます。", "reading": "としょかんでほんをよみます。",
+        "romaji": "Toshokan de hon wo yomimasu.", "es": "Leo libros en la biblioteca." }
+    },
+    {
+      "id": "v047", "word": "車", "reading": "くるま", "romaji": "kuruma",
+      "meanings": ["coche, carro"],
+      "part_of_speech": "noun", "jlpt": "N5", "category": "transport",
+      "example": { "jp": "車で行きます。", "reading": "くるまでいきます。",
+        "romaji": "Kuruma de ikimasu.", "es": "Voy en coche." }
+    },
+    {
+      "id": "v048", "word": "家", "reading": "いえ/うち", "romaji": "ie/uchi",
+      "meanings": ["casa, hogar"],
+      "part_of_speech": "noun", "jlpt": "N5", "category": "places",
+      "note": "うち tiene connotación de 'mi casa/hogar' más personal",
+      "example": { "jp": "家に帰ります。", "reading": "いえにかえります。",
+        "romaji": "Ie ni kaerimasu.", "es": "Vuelvo a casa." }
+    },
+    {
+      "id": "v049", "word": "会社", "reading": "かいしゃ", "romaji": "kaisha",
+      "meanings": ["empresa, compañía"],
+      "part_of_speech": "noun", "jlpt": "N5", "category": "places",
+      "example": { "jp": "9時に会社に行きます。", "reading": "くじにかいしゃにいきます。",
+        "romaji": "Kuji ni kaisha ni ikimasu.", "es": "Voy a la empresa a las 9." }
+    },
+    {
+      "id": "v050", "word": "病院", "reading": "びょういん", "romaji": "byouin",
+      "meanings": ["hospital"],
+      "part_of_speech": "noun", "jlpt": "N5", "category": "places",
+      "example": { "jp": "病院に行きます。", "reading": "びょういんにいきます。",
+        "romaji": "Byouin ni ikimasu.", "es": "Voy al hospital." }
+    }
+  ]
+}
