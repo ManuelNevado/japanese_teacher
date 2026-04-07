@@ -10,212 +10,853 @@
   "kanji": [
     {
       "id": "k001", "kanji": "一", "jlpt": "N5", "strokes": 1,
-      "meanings_es": ["uno", "primero"],
-      "on_yomi": ["イチ", "イツ"],
-      "kun_yomi": ["ひと-", "ひとつ"],
-      "radicals": ["一 (uno)"],
-      "mnemonic_es": "Una sola línea horizontal — el número más simple que existe",
+      "meanings_es": ["uno"],
+      "on_yomi": ["イチ", "イツ"], "kun_yomi": ["ひと-", "ひとつ"],
+      "mnemonic_es": "Una sola línea horizontal — el número más simple",
       "vocabulary": [
         { "word": "一つ", "reading": "ひとつ", "meaning": "uno (contador general)" },
         { "word": "一月", "reading": "いちがつ", "meaning": "enero" },
-        { "word": "一日", "reading": "いちにち", "meaning": "un día; el día primero" }
-      ],
-      "stroke_order": "1. Horizontal de izquierda a derecha"
+        { "word": "一人", "reading": "ひとり", "meaning": "una persona" }
+      ]
     },
     {
       "id": "k002", "kanji": "二", "jlpt": "N5", "strokes": 2,
       "meanings_es": ["dos"],
-      "on_yomi": ["ニ"],
-      "kun_yomi": ["ふた-", "ふたつ"],
-      "radicals": ["二 (dos)"],
-      "mnemonic_es": "Dos líneas horizontales — doble de uno",
+      "on_yomi": ["ニ"], "kun_yomi": ["ふた-", "ふたつ"],
+      "mnemonic_es": "Dos líneas horizontales — el doble de uno",
       "vocabulary": [
         { "word": "二つ", "reading": "ふたつ", "meaning": "dos (contador general)" },
-        { "word": "二月", "reading": "にがつ", "meaning": "febrero" }
-      ],
-      "stroke_order": "1. Línea superior (más corta) → 2. Línea inferior (más larga)"
+        { "word": "二月", "reading": "にがつ", "meaning": "febrero" },
+        { "word": "二人", "reading": "ふたり", "meaning": "dos personas" }
+      ]
     },
     {
       "id": "k003", "kanji": "三", "jlpt": "N5", "strokes": 3,
       "meanings_es": ["tres"],
-      "on_yomi": ["サン"],
-      "kun_yomi": ["み-", "みっつ"],
-      "radicals": ["三 (tres)"],
+      "on_yomi": ["サン"], "kun_yomi": ["み-", "みっつ"],
       "mnemonic_es": "Tres líneas horizontales — simple y visual",
       "vocabulary": [
         { "word": "三つ", "reading": "みっつ", "meaning": "tres (contador general)" },
         { "word": "三月", "reading": "さんがつ", "meaning": "marzo" }
-      ],
-      "stroke_order": "1. Superior → 2. Media → 3. Inferior (cada vez más larga)"
+      ]
     },
     {
-      "id": "k004", "kanji": "日", "jlpt": "N5", "strokes": 4,
-      "meanings_es": ["sol", "día", "Japón (abreviado)"],
-      "on_yomi": ["ニチ", "ジツ"],
-      "kun_yomi": ["ひ", "か"],
-      "radicals": ["日 (sol)"],
-      "mnemonic_es": "Una ventana cuadrada con una barra en el medio — como ver el sol a través de la ventana con su brillo central",
+      "id": "k004", "kanji": "四", "jlpt": "N5", "strokes": 5,
+      "meanings_es": ["cuatro"],
+      "on_yomi": ["シ"], "kun_yomi": ["よ-", "よっつ", "よん"],
+      "mnemonic_es": "Cuatro — el recinto con dos líneas dentro, como cuatro partes de una ventana",
       "vocabulary": [
-        { "word": "今日", "reading": "きょう", "meaning": "hoy" },
-        { "word": "日本語", "reading": "にほんご", "meaning": "idioma japonés" },
-        { "word": "日曜日", "reading": "にちようび", "meaning": "domingo" },
-        { "word": "先日", "reading": "せんじつ", "meaning": "el otro día, días pasados" }
-      ],
-      "stroke_order": "1. Línea vertical izquierda → 2. Vuelta en L arriba-derecha → 3. Barra horizontal media → 4. Línea base"
+        { "word": "四つ", "reading": "よっつ", "meaning": "cuatro (contador general)" },
+        { "word": "四月", "reading": "しがつ", "meaning": "abril" }
+      ]
     },
     {
-      "id": "k005", "kanji": "月", "jlpt": "N5", "strokes": 4,
+      "id": "k005", "kanji": "五", "jlpt": "N5", "strokes": 4,
+      "meanings_es": ["cinco"],
+      "on_yomi": ["ゴ"], "kun_yomi": ["いつ-", "いつつ"],
+      "mnemonic_es": "El 5 que baila — sus trazos recuerdan un 5 rotado y estilizado",
+      "vocabulary": [
+        { "word": "五つ", "reading": "いつつ", "meaning": "cinco (contador general)" },
+        { "word": "五月", "reading": "ごがつ", "meaning": "mayo" }
+      ]
+    },
+    {
+      "id": "k006", "kanji": "六", "jlpt": "N5", "strokes": 4,
+      "meanings_es": ["seis"],
+      "on_yomi": ["ロク"], "kun_yomi": ["む-", "むっつ"],
+      "mnemonic_es": "Una casita pequeña con tejado — seis trazos que forman una estructura",
+      "vocabulary": [
+        { "word": "六つ", "reading": "むっつ", "meaning": "seis (contador general)" },
+        { "word": "六月", "reading": "ろくがつ", "meaning": "junio" }
+      ]
+    },
+    {
+      "id": "k007", "kanji": "七", "jlpt": "N5", "strokes": 2,
+      "meanings_es": ["siete"],
+      "on_yomi": ["シチ"], "kun_yomi": ["なな-", "ななつ"],
+      "mnemonic_es": "El número 7 en forma de tachón diagonal",
+      "vocabulary": [
+        { "word": "七つ", "reading": "ななつ", "meaning": "siete (contador general)" },
+        { "word": "七月", "reading": "しちがつ", "meaning": "julio" }
+      ]
+    },
+    {
+      "id": "k008", "kanji": "八", "jlpt": "N5", "strokes": 2,
+      "meanings_es": ["ocho"],
+      "on_yomi": ["ハチ"], "kun_yomi": ["や-", "やっつ"],
+      "mnemonic_es": "Dos trazos que se abren como los brazos en forma de V — como decir '¡ocho!'",
+      "vocabulary": [
+        { "word": "八つ", "reading": "やっつ", "meaning": "ocho (contador general)" },
+        { "word": "八月", "reading": "はちがつ", "meaning": "agosto" }
+      ]
+    },
+    {
+      "id": "k009", "kanji": "九", "jlpt": "N5", "strokes": 2,
+      "meanings_es": ["nueve"],
+      "on_yomi": ["ク", "キュウ"], "kun_yomi": ["ここの-", "ここのつ"],
+      "mnemonic_es": "Un gancho largo — como un 9 elegante",
+      "vocabulary": [
+        { "word": "九つ", "reading": "ここのつ", "meaning": "nueve (contador general)" },
+        { "word": "九月", "reading": "くがつ", "meaning": "septiembre" }
+      ]
+    },
+    {
+      "id": "k010", "kanji": "十", "jlpt": "N5", "strokes": 2,
+      "meanings_es": ["diez"],
+      "on_yomi": ["ジュウ", "ジッ"], "kun_yomi": ["とお", "と"],
+      "mnemonic_es": "Una cruz perfecta — como el signo + que suma todo hasta llegar a diez",
+      "vocabulary": [
+        { "word": "十", "reading": "じゅう", "meaning": "diez" },
+        { "word": "十月", "reading": "じゅうがつ", "meaning": "octubre" },
+        { "word": "二十", "reading": "にじゅう", "meaning": "veinte" }
+      ]
+    },
+    {
+      "id": "k011", "kanji": "百", "jlpt": "N5", "strokes": 6,
+      "meanings_es": ["cien"],
+      "on_yomi": ["ヒャク"], "kun_yomi": [],
+      "mnemonic_es": "El uno (一) encima de un recinto cuadrado — como decir 'este uno vale mucho'",
+      "vocabulary": [
+        { "word": "百", "reading": "ひゃく", "meaning": "cien" },
+        { "word": "三百", "reading": "さんびゃく", "meaning": "trescientos" },
+        { "word": "百円", "reading": "ひゃくえん", "meaning": "100 yenes" }
+      ]
+    },
+    {
+      "id": "k012", "kanji": "千", "jlpt": "N5", "strokes": 3,
+      "meanings_es": ["mil"],
+      "on_yomi": ["セン"], "kun_yomi": ["ち"],
+      "mnemonic_es": "Una línea con una barra que la atraviesa — como una T con cola, marcando mil",
+      "vocabulary": [
+        { "word": "千", "reading": "せん", "meaning": "mil" },
+        { "word": "三千", "reading": "さんぜん", "meaning": "tres mil" },
+        { "word": "千円", "reading": "せんえん", "meaning": "1000 yenes" }
+      ]
+    },
+    {
+      "id": "k013", "kanji": "万", "jlpt": "N5", "strokes": 3,
+      "meanings_es": ["diez mil"],
+      "on_yomi": ["マン", "バン"], "kun_yomi": [],
+      "mnemonic_es": "Una unidad clave en japonés: 万 = 10.000. Como un escorpión estilizado",
+      "vocabulary": [
+        { "word": "一万", "reading": "いちまん", "meaning": "diez mil" },
+        { "word": "万円", "reading": "まんえん", "meaning": "10.000 yenes" }
+      ]
+    },
+    {
+      "id": "k014", "kanji": "円", "jlpt": "N5", "strokes": 4,
+      "meanings_es": ["yen", "círculo"],
+      "on_yomi": ["エン"], "kun_yomi": ["まる"],
+      "mnemonic_es": "Un recinto circular con algo dentro — la moneda japonesa, redonda como un círculo",
+      "vocabulary": [
+        { "word": "円", "reading": "えん", "meaning": "yen" },
+        { "word": "百円", "reading": "ひゃくえん", "meaning": "100 yenes" }
+      ]
+    },
+    {
+      "id": "k015", "kanji": "年", "jlpt": "N5", "strokes": 6,
+      "meanings_es": ["año"],
+      "on_yomi": ["ネン"], "kun_yomi": ["とし"],
+      "mnemonic_es": "Un kanji que recuerda el paso del tiempo — trazos que indican ciclos anuales",
+      "vocabulary": [
+        { "word": "今年", "reading": "ことし", "meaning": "este año" },
+        { "word": "来年", "reading": "らいねん", "meaning": "el año que viene" },
+        { "word": "去年", "reading": "きょねん", "meaning": "el año pasado" }
+      ]
+    },
+    {
+      "id": "k016", "kanji": "月", "jlpt": "N5", "strokes": 4,
       "meanings_es": ["luna", "mes"],
-      "on_yomi": ["ゲツ", "ガツ"],
-      "kun_yomi": ["つき"],
-      "radicals": ["月 (luna/mes)"],
-      "mnemonic_es": "La luna creciente — un rectángulo con las barras interiores que parecen el perfil de la luna",
+      "on_yomi": ["ゲツ", "ガツ"], "kun_yomi": ["つき"],
+      "mnemonic_es": "La luna creciente — un rectángulo con barras interiores como el perfil de la luna",
       "vocabulary": [
         { "word": "月曜日", "reading": "げつようび", "meaning": "lunes" },
         { "word": "今月", "reading": "こんげつ", "meaning": "este mes" },
         { "word": "来月", "reading": "らいげつ", "meaning": "el mes que viene" }
-      ],
-      "stroke_order": "1. Trazo izquierdo curvo → 2. Trazo superior → 3. Primera barra interior → 4. Segunda barra interior"
+      ]
     },
     {
-      "id": "k006", "kanji": "山", "jlpt": "N5", "strokes": 3,
-      "meanings_es": ["montaña"],
-      "on_yomi": ["サン"],
-      "kun_yomi": ["やま"],
-      "radicals": ["山 (montaña)"],
-      "mnemonic_es": "Tres picos de una montaña con el pico central más alto — ¡parece exactamente una montaña vista de frente!",
+      "id": "k017", "kanji": "日", "jlpt": "N5", "strokes": 4,
+      "meanings_es": ["sol", "día", "Japón (abreviado)"],
+      "on_yomi": ["ニチ", "ジツ"], "kun_yomi": ["ひ", "か"],
+      "mnemonic_es": "Una ventana cuadrada con una barra central — como ver el sol a través de la ventana",
       "vocabulary": [
-        { "word": "山", "reading": "やま", "meaning": "montaña" },
-        { "word": "富士山", "reading": "ふじさん", "meaning": "Monte Fuji" },
-        { "word": "山田", "reading": "やまだ", "meaning": "Yamada (apellido común)" }
-      ],
-      "stroke_order": "1. Pico izquierdo (subir-bajar) → 2. Pico central (más alto) → 3. Pico derecho"
+        { "word": "今日", "reading": "きょう", "meaning": "hoy" },
+        { "word": "日本語", "reading": "にほんご", "meaning": "japonés" },
+        { "word": "日曜日", "reading": "にちようび", "meaning": "domingo" }
+      ]
     },
     {
-      "id": "k007", "kanji": "川", "jlpt": "N5", "strokes": 3,
-      "meanings_es": ["río"],
-      "on_yomi": ["セン"],
-      "kun_yomi": ["かわ"],
-      "radicals": ["川 (río)"],
-      "mnemonic_es": "Tres corrientes fluyendo verticalmente hacia abajo — como las líneas del agua en un río visto desde arriba",
+      "id": "k018", "kanji": "時", "jlpt": "N5", "strokes": 10,
+      "meanings_es": ["hora", "momento", "tiempo"],
+      "on_yomi": ["ジ"], "kun_yomi": ["とき"],
+      "mnemonic_es": "Sol (日) + templo (寺) — el sol en el templo marca el tiempo del día",
       "vocabulary": [
-        { "word": "川", "reading": "かわ", "meaning": "río" },
-        { "word": "小川", "reading": "おがわ", "meaning": "arroyo, riachuelo" },
-        { "word": "川口", "reading": "かわぐち", "meaning": "Kawaguchi (lugar/apellido)" }
-      ],
-      "stroke_order": "1. Línea izquierda (corta) → 2. Línea central (larga) → 3. Línea derecha (media)"
+        { "word": "何時", "reading": "なんじ", "meaning": "¿qué hora?" },
+        { "word": "時間", "reading": "じかん", "meaning": "tiempo, duración" },
+        { "word": "三時", "reading": "さんじ", "meaning": "las tres" }
+      ]
     },
     {
-      "id": "k008", "kanji": "木", "jlpt": "N5", "strokes": 4,
-      "meanings_es": ["árbol", "madera", "jueves (abrev.)"],
-      "on_yomi": ["ボク", "モク"],
-      "kun_yomi": ["き", "こ-"],
-      "radicals": ["木 (árbol)"],
-      "mnemonic_es": "Un árbol con su tronco vertical, ramas extendidas a los lados y raíces abajo — ¡el kanji más ilustrativo!",
+      "id": "k019", "kanji": "分", "jlpt": "N5", "strokes": 4,
+      "meanings_es": ["minuto", "parte", "entender"],
+      "on_yomi": ["フン", "ブン"], "kun_yomi": ["わ-かる", "わ-ける"],
+      "mnemonic_es": "Un cuchillo (刀) divide (八) algo en partes — minutos que dividen la hora",
       "vocabulary": [
-        { "word": "木曜日", "reading": "もくようび", "meaning": "jueves" },
-        { "word": "木", "reading": "き", "meaning": "árbol" },
-        { "word": "木村", "reading": "きむら", "meaning": "Kimura (apellido común)" }
-      ],
-      "stroke_order": "1. Trazo horizontal → 2. Trazo vertical (cruzando el horizontal) → 3. Rama izquierda → 4. Rama derecha"
+        { "word": "何分", "reading": "なんぷん", "meaning": "¿cuántos minutos?" },
+        { "word": "三十分", "reading": "さんじゅっぷん", "meaning": "treinta minutos" },
+        { "word": "自分", "reading": "じぶん", "meaning": "uno mismo" }
+      ]
     },
     {
-      "id": "k009", "kanji": "火", "jlpt": "N5", "strokes": 4,
-      "meanings_es": ["fuego", "martes (abrev.)"],
-      "on_yomi": ["カ"],
-      "kun_yomi": ["ひ"],
-      "radicals": ["火 (fuego)"],
-      "mnemonic_es": "Las llamas de una hoguera — la línea central es la llama principal, los trazos laterales son las llamas que se esparcen",
+      "id": "k020", "kanji": "半", "jlpt": "N5", "strokes": 5,
+      "meanings_es": ["mitad", "medio"],
+      "on_yomi": ["ハン"], "kun_yomi": ["なか-ば"],
+      "mnemonic_es": "Una línea horizontal divide algo en dos mitades — exactamente la mitad",
       "vocabulary": [
-        { "word": "火曜日", "reading": "かようび", "meaning": "martes" },
-        { "word": "火", "reading": "ひ", "meaning": "fuego" },
-        { "word": "花火", "reading": "はなび", "meaning": "fuegos artificiales" }
-      ],
-      "stroke_order": "1. Punto superior izquierdo → 2. Trazo central (largo) → 3. Trazo lateral izquierdo → 4. Trazo lateral derecho"
+        { "word": "三時半", "reading": "さんじはん", "meaning": "las tres y media" },
+        { "word": "半分", "reading": "はんぶん", "meaning": "la mitad" }
+      ]
     },
     {
-      "id": "k010", "kanji": "水", "jlpt": "N5", "strokes": 4,
-      "meanings_es": ["agua", "miércoles (abrev.)"],
-      "on_yomi": ["スイ"],
-      "kun_yomi": ["みず"],
-      "radicals": ["水 (agua)"],
-      "mnemonic_es": "El agua fluyendo — las líneas se ramifican como la corriente de un río dividiéndose",
+      "id": "k021", "kanji": "上", "jlpt": "N5", "strokes": 3,
+      "meanings_es": ["arriba", "encima", "subir"],
+      "on_yomi": ["ジョウ", "ショウ"], "kun_yomi": ["うえ", "うわ-", "のぼ-る", "あ-げる"],
+      "mnemonic_es": "Una línea con un punto encima — indica 'arriba' de forma directa",
       "vocabulary": [
-        { "word": "水曜日", "reading": "すいようび", "meaning": "miércoles" },
-        { "word": "水", "reading": "みず", "meaning": "agua" },
-        { "word": "水泳", "reading": "すいえい", "meaning": "natación" }
-      ],
-      "stroke_order": "1. Trazo central vertical → 2. Trazo superior izquierdo → 3. Trazo inferior izquierdo → 4. Trazo derecho curvo"
+        { "word": "上", "reading": "うえ", "meaning": "arriba, encima" },
+        { "word": "上手", "reading": "じょうず", "meaning": "hábil, bueno en algo" },
+        { "word": "上がる", "reading": "あがる", "meaning": "subir" }
+      ]
     },
     {
-      "id": "k011", "kanji": "人", "jlpt": "N5", "strokes": 2,
+      "id": "k022", "kanji": "下", "jlpt": "N5", "strokes": 3,
+      "meanings_es": ["abajo", "debajo", "bajar"],
+      "on_yomi": ["カ", "ゲ"], "kun_yomi": ["した", "しも", "さ-がる", "お-ろす"],
+      "mnemonic_es": "Una línea con un punto colgando debajo — indica 'abajo' visualmente",
+      "vocabulary": [
+        { "word": "下", "reading": "した", "meaning": "abajo, debajo" },
+        { "word": "下手", "reading": "へた", "meaning": "torpe, malo en algo" },
+        { "word": "下がる", "reading": "さがる", "meaning": "bajar" }
+      ]
+    },
+    {
+      "id": "k023", "kanji": "中", "jlpt": "N5", "strokes": 4,
+      "meanings_es": ["dentro", "medio", "centro", "China (abreviado)"],
+      "on_yomi": ["チュウ"], "kun_yomi": ["なか"],
+      "mnemonic_es": "Un recinto cuadrado con una línea que lo atraviesa justo por el centro — ¡literalmente 'en medio'!",
+      "vocabulary": [
+        { "word": "中", "reading": "なか", "meaning": "dentro, interior" },
+        { "word": "中国", "reading": "ちゅうごく", "meaning": "China" },
+        { "word": "中学生", "reading": "ちゅうがくせい", "meaning": "estudiante de secundaria" }
+      ]
+    },
+    {
+      "id": "k024", "kanji": "大", "jlpt": "N5", "strokes": 3,
+      "meanings_es": ["grande"],
+      "on_yomi": ["ダイ", "タイ"], "kun_yomi": ["おお-きい"],
+      "mnemonic_es": "Una persona con los brazos abiertos — ¡qué grande soy!",
+      "vocabulary": [
+        { "word": "大きい", "reading": "おおきい", "meaning": "grande" },
+        { "word": "大学", "reading": "だいがく", "meaning": "universidad" },
+        { "word": "大丈夫", "reading": "だいじょうぶ", "meaning": "está bien, no hay problema" }
+      ]
+    },
+    {
+      "id": "k025", "kanji": "小", "jlpt": "N5", "strokes": 3,
+      "meanings_es": ["pequeño"],
+      "on_yomi": ["ショウ"], "kun_yomi": ["ちい-さい", "こ-", "お-"],
+      "mnemonic_es": "Una línea central con dos puntos pequeños a los lados — todo compacto y diminuto",
+      "vocabulary": [
+        { "word": "小さい", "reading": "ちいさい", "meaning": "pequeño" },
+        { "word": "小学生", "reading": "しょうがくせい", "meaning": "alumno de primaria" },
+        { "word": "小説", "reading": "しょうせつ", "meaning": "novela" }
+      ]
+    },
+    {
+      "id": "k026", "kanji": "本", "jlpt": "N5", "strokes": 5,
+      "meanings_es": ["libro", "origen", "raíz"],
+      "on_yomi": ["ホン"], "kun_yomi": ["もと"],
+      "mnemonic_es": "Un árbol (木) con una marca en la base — la raíz, el origen, y también el libro como fuente de conocimiento",
+      "vocabulary": [
+        { "word": "本", "reading": "ほん", "meaning": "libro" },
+        { "word": "日本", "reading": "にほん", "meaning": "Japón" },
+        { "word": "本当", "reading": "ほんとう", "meaning": "de verdad" }
+      ]
+    },
+    {
+      "id": "k027", "kanji": "文", "jlpt": "N5", "strokes": 4,
+      "meanings_es": ["escrito", "texto", "cultura"],
+      "on_yomi": ["ブン", "モン"], "kun_yomi": ["ふみ"],
+      "mnemonic_es": "Un diseño cruzado con trazos — como las marcas de un texto escrito a mano",
+      "vocabulary": [
+        { "word": "文", "reading": "ぶん/ふみ", "meaning": "frase, texto" },
+        { "word": "文化", "reading": "ぶんか", "meaning": "cultura" },
+        { "word": "作文", "reading": "さくぶん", "meaning": "composición escrita" }
+      ]
+    },
+    {
+      "id": "k028", "kanji": "字", "jlpt": "N5", "strokes": 6,
+      "meanings_es": ["carácter escrito", "letra"],
+      "on_yomi": ["ジ"], "kun_yomi": [],
+      "mnemonic_es": "Un techo (宀) con un hijo (子) dentro — como aprender letras bajo el techo de la escuela",
+      "vocabulary": [
+        { "word": "文字", "reading": "もじ", "meaning": "carácter, letra" },
+        { "word": "漢字", "reading": "かんじ", "meaning": "kanji" },
+        { "word": "数字", "reading": "すうじ", "meaning": "número, cifra" }
+      ]
+    },
+    {
+      "id": "k029", "kanji": "目", "jlpt": "N5", "strokes": 5,
+      "meanings_es": ["ojo"],
+      "on_yomi": ["モク", "ボク"], "kun_yomi": ["め"],
+      "mnemonic_es": "Un ojo visto de frente con la pupila en el centro — perfectamente visual",
+      "vocabulary": [
+        { "word": "目", "reading": "め", "meaning": "ojo" },
+        { "word": "目的", "reading": "もくてき", "meaning": "objetivo, propósito" }
+      ]
+    },
+    {
+      "id": "k030", "kanji": "口", "jlpt": "N5", "strokes": 3,
+      "meanings_es": ["boca"],
+      "on_yomi": ["コウ", "ク"], "kun_yomi": ["くち"],
+      "mnemonic_es": "Un cuadrado abierto — la boca vista de frente, abierta para hablar",
+      "vocabulary": [
+        { "word": "口", "reading": "くち", "meaning": "boca" },
+        { "word": "入口", "reading": "いりぐち", "meaning": "entrada" },
+        { "word": "出口", "reading": "でぐち", "meaning": "salida" }
+      ]
+    },
+    {
+      "id": "k031", "kanji": "手", "jlpt": "N5", "strokes": 4,
+      "meanings_es": ["mano"],
+      "on_yomi": ["シュ"], "kun_yomi": ["て", "た-"],
+      "mnemonic_es": "Una mano con los dedos extendidos vista de frente — ¡claramente una mano!",
+      "vocabulary": [
+        { "word": "手", "reading": "て", "meaning": "mano" },
+        { "word": "上手", "reading": "じょうず", "meaning": "hábil" },
+        { "word": "手紙", "reading": "てがみ", "meaning": "carta" }
+      ]
+    },
+    {
+      "id": "k032", "kanji": "足", "jlpt": "N5", "strokes": 7,
+      "meanings_es": ["pie", "pierna", "suficiente"],
+      "on_yomi": ["ソク"], "kun_yomi": ["あし", "た-りる"],
+      "mnemonic_es": "La parte superior es la rodilla y la inferior los dedos del pie — una pierna completa",
+      "vocabulary": [
+        { "word": "足", "reading": "あし", "meaning": "pie, pierna" },
+        { "word": "足りる", "reading": "たりる", "meaning": "ser suficiente" }
+      ]
+    },
+    {
+      "id": "k033", "kanji": "耳", "jlpt": "N5", "strokes": 6,
+      "meanings_es": ["oreja", "oído"],
+      "on_yomi": ["ジ"], "kun_yomi": ["みみ"],
+      "mnemonic_es": "La forma de una oreja vista de perfil — con el lóbulo en la parte de abajo",
+      "vocabulary": [
+        { "word": "耳", "reading": "みみ", "meaning": "oreja, oído" }
+      ]
+    },
+    {
+      "id": "k034", "kanji": "人", "jlpt": "N5", "strokes": 2,
       "meanings_es": ["persona", "gente"],
-      "on_yomi": ["ジン", "ニン"],
-      "kun_yomi": ["ひと"],
-      "radicals": ["人 (persona)"],
-      "mnemonic_es": "Una persona de perfil con las dos piernas abiertas — increíblemente minimalista pero expresivo",
+      "on_yomi": ["ジン", "ニン"], "kun_yomi": ["ひと"],
+      "mnemonic_es": "Una persona de perfil con dos piernas — minimalista pero expresivo",
       "vocabulary": [
         { "word": "人", "reading": "ひと", "meaning": "persona" },
         { "word": "日本人", "reading": "にほんじん", "meaning": "japonés (nacionalidad)" },
         { "word": "一人", "reading": "ひとり", "meaning": "una persona, solo" }
-      ],
-      "stroke_order": "1. Trazo izquierdo (baja a la izquierda) → 2. Trazo derecho (baja a la derecha)"
+      ]
     },
     {
-      "id": "k012", "kanji": "女", "jlpt": "N5", "strokes": 3,
+      "id": "k035", "kanji": "子", "jlpt": "N5", "strokes": 3,
+      "meanings_es": ["niño", "hijo"],
+      "on_yomi": ["シ", "ス"], "kun_yomi": ["こ"],
+      "mnemonic_es": "Un bebé con brazos extendidos y piernas sin desarrollar — tierno y simple",
+      "vocabulary": [
+        { "word": "子供", "reading": "こども", "meaning": "niño/a" },
+        { "word": "女の子", "reading": "おんなのこ", "meaning": "chica, niña" },
+        { "word": "男の子", "reading": "おとこのこ", "meaning": "chico, niño" }
+      ]
+    },
+    {
+      "id": "k036", "kanji": "女", "jlpt": "N5", "strokes": 3,
       "meanings_es": ["mujer", "femenino"],
-      "on_yomi": ["ジョ", "ニョ"],
-      "kun_yomi": ["おんな", "め-"],
-      "radicals": ["女 (mujer)"],
-      "mnemonic_es": "Una mujer con los brazos cruzados, ligeramente inclinada en un gesto gracioso — las curvas del kanji evocan feminidad",
+      "on_yomi": ["ジョ", "ニョ"], "kun_yomi": ["おんな", "め-"],
+      "mnemonic_es": "Una figura con brazos cruzados en un gesto gracioso — evoca feminidad",
       "vocabulary": [
         { "word": "女", "reading": "おんな", "meaning": "mujer" },
         { "word": "女の子", "reading": "おんなのこ", "meaning": "chica, niña" },
         { "word": "女性", "reading": "じょせい", "meaning": "mujer, femenino (formal)" }
-      ],
-      "stroke_order": "1. Trazo horizontal curvo izquierdo → 2. Trazo diagonal (largo) → 3. Trazo horizontal inferior"
+      ]
     },
     {
-      "id": "k013", "kanji": "男", "jlpt": "N5", "strokes": 7,
+      "id": "k037", "kanji": "男", "jlpt": "N5", "strokes": 7,
       "meanings_es": ["hombre", "masculino"],
-      "on_yomi": ["ダン", "ナン"],
-      "kun_yomi": ["おとこ"],
-      "radicals": ["田 (campo arrozal)", "力 (fuerza)"],
-      "mnemonic_es": "Un campo de arroz (田) más la fuerza (力) — el hombre que trabaja en el campo con fuerza. Poderosa imagen cultural japonesa",
+      "on_yomi": ["ダン", "ナン"], "kun_yomi": ["おとこ"],
+      "mnemonic_es": "Campo de arroz (田) + fuerza (力) — el hombre que trabaja el campo con fuerza",
       "vocabulary": [
         { "word": "男", "reading": "おとこ", "meaning": "hombre" },
         { "word": "男の子", "reading": "おとこのこ", "meaning": "chico, niño" },
         { "word": "男性", "reading": "だんせい", "meaning": "hombre, masculino (formal)" }
-      ],
-      "stroke_order": "Primero los trazos de 田 (arriba), luego los de 力 (abajo)"
+      ]
     },
     {
-      "id": "k014", "kanji": "子", "jlpt": "N5", "strokes": 3,
-      "meanings_es": ["niño", "hijo", "persona (sufijo)"],
-      "on_yomi": ["シ", "ス"],
-      "kun_yomi": ["こ", "-こ"],
-      "radicals": ["子 (niño)"],
-      "mnemonic_es": "Un bebé con los brazos extendidos hacia arriba y las piernas aún sin desarrollar — tierno y simple",
+      "id": "k038", "kanji": "父", "jlpt": "N5", "strokes": 4,
+      "meanings_es": ["padre"],
+      "on_yomi": ["フ"], "kun_yomi": ["ちち"],
+      "mnemonic_es": "Dos manos levantadas (figura en X) — el padre que dirige con autoridad",
       "vocabulary": [
-        { "word": "子", "reading": "こ", "meaning": "niño/a, hijo/a" },
-        { "word": "子供", "reading": "こども", "meaning": "niño/a" },
-        { "word": "女の子", "reading": "おんなのこ", "meaning": "chica, niña" }
-      ],
-      "stroke_order": "1. Trazo superior curvo → 2. Trazo vertical con gancho → 3. Trazo horizontal"
+        { "word": "父", "reading": "ちち", "meaning": "mi padre" },
+        { "word": "お父さん", "reading": "おとうさん", "meaning": "padre (de otro)" }
+      ]
     },
     {
-      "id": "k015", "kanji": "国", "jlpt": "N5", "strokes": 8,
+      "id": "k039", "kanji": "母", "jlpt": "N5", "strokes": 5,
+      "meanings_es": ["madre"],
+      "on_yomi": ["ボ"], "kun_yomi": ["はは"],
+      "mnemonic_es": "Una figura con dos puntos en el centro — como los pechos de una madre que nutre",
+      "vocabulary": [
+        { "word": "母", "reading": "はは", "meaning": "mi madre" },
+        { "word": "お母さん", "reading": "おかあさん", "meaning": "madre (de otro)" }
+      ]
+    },
+    {
+      "id": "k040", "kanji": "山", "jlpt": "N5", "strokes": 3,
+      "meanings_es": ["montaña"],
+      "on_yomi": ["サン"], "kun_yomi": ["やま"],
+      "mnemonic_es": "Tres picos de montaña con el central más alto — ¡parece exactamente una montaña!",
+      "vocabulary": [
+        { "word": "山", "reading": "やま", "meaning": "montaña" },
+        { "word": "富士山", "reading": "ふじさん", "meaning": "monte Fuji" }
+      ]
+    },
+    {
+      "id": "k041", "kanji": "川", "jlpt": "N5", "strokes": 3,
+      "meanings_es": ["río"],
+      "on_yomi": ["セン"], "kun_yomi": ["かわ"],
+      "mnemonic_es": "Tres corrientes fluyendo verticalmente — como el agua de un río vista desde arriba",
+      "vocabulary": [
+        { "word": "川", "reading": "かわ", "meaning": "río" },
+        { "word": "小川", "reading": "おがわ", "meaning": "arroyo" }
+      ]
+    },
+    {
+      "id": "k042", "kanji": "田", "jlpt": "N5", "strokes": 5,
+      "meanings_es": ["campo de arroz", "arrozal"],
+      "on_yomi": ["デン"], "kun_yomi": ["た"],
+      "mnemonic_es": "Un campo dividido en cuatro parcelas — los arrozales japoneses divididos con diques de agua",
+      "vocabulary": [
+        { "word": "田", "reading": "た", "meaning": "arrozal" },
+        { "word": "田中", "reading": "たなか", "meaning": "Tanaka (apellido común)" }
+      ]
+    },
+    {
+      "id": "k043", "kanji": "国", "jlpt": "N5", "strokes": 8,
       "meanings_es": ["país", "nación"],
-      "on_yomi": ["コク"],
-      "kun_yomi": ["くに"],
-      "radicals": ["囗 (recinto/territorio)", "玉 (joya/gema → rey)"],
-      "mnemonic_es": "Un territorio (recinto cuadrado) donde vive el rey con su joya preciada (玉) — el país como la joya del rey",
+      "on_yomi": ["コク"], "kun_yomi": ["くに"],
+      "mnemonic_es": "Un territorio (recinto cuadrado) con la joya del rey (玉) dentro — el país como el tesoro del soberano",
       "vocabulary": [
         { "word": "国", "reading": "くに", "meaning": "país" },
         { "word": "外国", "reading": "がいこく", "meaning": "país extranjero" },
         { "word": "中国", "reading": "ちゅうごく", "meaning": "China" }
-      ],
-      "stroke_order": "Marco exterior primero (recinto), luego interior (玉)"
+      ]
+    },
+    {
+      "id": "k044", "kanji": "語", "jlpt": "N5", "strokes": 14,
+      "meanings_es": ["idioma", "lengua", "hablar"],
+      "on_yomi": ["ゴ"], "kun_yomi": ["かた-る", "かた-らう"],
+      "mnemonic_es": "Palabra (言) + yo/cinco (吾) — las palabras que yo mismo digo en mi idioma",
+      "vocabulary": [
+        { "word": "日本語", "reading": "にほんご", "meaning": "japonés" },
+        { "word": "英語", "reading": "えいご", "meaning": "inglés" },
+        { "word": "語学", "reading": "ごがく", "meaning": "estudio de idiomas" }
+      ]
+    },
+    {
+      "id": "k045", "kanji": "学", "jlpt": "N5", "strokes": 8,
+      "meanings_es": ["estudiar", "aprender"],
+      "on_yomi": ["ガク"], "kun_yomi": ["まな-ぶ"],
+      "mnemonic_es": "Un techo (con estructura arriba) sobre el niño (子) — el niño bajo el techo aprendiendo",
+      "vocabulary": [
+        { "word": "学校", "reading": "がっこう", "meaning": "escuela" },
+        { "word": "大学", "reading": "だいがく", "meaning": "universidad" },
+        { "word": "学生", "reading": "がくせい", "meaning": "estudiante" }
+      ]
+    },
+    {
+      "id": "k046", "kanji": "校", "jlpt": "N5", "strokes": 10,
+      "meanings_es": ["escuela"],
+      "on_yomi": ["コウ"], "kun_yomi": [],
+      "mnemonic_es": "Árbol (木) + intercambio (交) — los conocimientos que se cruzan bajo los árboles de la escuela",
+      "vocabulary": [
+        { "word": "学校", "reading": "がっこう", "meaning": "escuela" },
+        { "word": "高校", "reading": "こうこう", "meaning": "bachillerato" },
+        { "word": "小学校", "reading": "しょうがっこう", "meaning": "escuela primaria" }
+      ]
+    },
+    {
+      "id": "k047", "kanji": "先", "jlpt": "N5", "strokes": 6,
+      "meanings_es": ["primero", "anterior", "delante", "punta"],
+      "on_yomi": ["セン"], "kun_yomi": ["さき"],
+      "mnemonic_es": "Piernas que van delante (先行) — quien va adelante es el primero, el que lidera",
+      "vocabulary": [
+        { "word": "先生", "reading": "せんせい", "meaning": "profesor" },
+        { "word": "先週", "reading": "せんしゅう", "meaning": "la semana pasada" },
+        { "word": "先月", "reading": "せんげつ", "meaning": "el mes pasado" }
+      ]
+    },
+    {
+      "id": "k048", "kanji": "生", "jlpt": "N5", "strokes": 5,
+      "meanings_es": ["vida", "nacer", "crudo", "estudiante"],
+      "on_yomi": ["セイ", "ショウ"], "kun_yomi": ["い-きる", "う-まれる", "なま"],
+      "mnemonic_es": "Un brote que surge de la tierra hacia arriba — la vida que nace",
+      "vocabulary": [
+        { "word": "先生", "reading": "せんせい", "meaning": "profesor" },
+        { "word": "学生", "reading": "がくせい", "meaning": "estudiante" },
+        { "word": "生まれる", "reading": "うまれる", "meaning": "nacer" }
+      ]
+    },
+    {
+      "id": "k049", "kanji": "空", "jlpt": "N5", "strokes": 8,
+      "meanings_es": ["cielo", "vacío", "aire"],
+      "on_yomi": ["クウ"], "kun_yomi": ["そら", "あ-く", "から"],
+      "mnemonic_es": "Cueva (穴) + trabajo (工) — el espacio vacío del cielo donde no hay nada",
+      "vocabulary": [
+        { "word": "空", "reading": "そら", "meaning": "cielo" },
+        { "word": "空港", "reading": "くうこう", "meaning": "aeropuerto" },
+        { "word": "空気", "reading": "くうき", "meaning": "aire" }
+      ]
+    },
+    {
+      "id": "k050", "kanji": "気", "jlpt": "N5", "strokes": 6,
+      "meanings_es": ["energía", "espíritu", "ánimo", "aire"],
+      "on_yomi": ["キ", "ケ"], "kun_yomi": [],
+      "mnemonic_es": "El vapor del arroz que sube (气) con el arroz dentro (米) — la energía vital que emana",
+      "vocabulary": [
+        { "word": "元気", "reading": "げんき", "meaning": "sano, con energía" },
+        { "word": "天気", "reading": "てんき", "meaning": "tiempo meteorológico" },
+        { "word": "気持ち", "reading": "きもち", "meaning": "sentimiento" }
+      ]
+    },
+    {
+      "id": "k051", "kanji": "天", "jlpt": "N5", "strokes": 4,
+      "meanings_es": ["cielo", "paraíso", "naturaleza"],
+      "on_yomi": ["テン"], "kun_yomi": ["あめ", "あま-"],
+      "mnemonic_es": "Un hombre grande (大) con una línea encima de la cabeza — lo que está sobre el hombre más grande: el cielo",
+      "vocabulary": [
+        { "word": "天気", "reading": "てんき", "meaning": "tiempo meteorológico" },
+        { "word": "天国", "reading": "てんごく", "meaning": "paraíso" }
+      ]
+    },
+    {
+      "id": "k052", "kanji": "雨", "jlpt": "N5", "strokes": 8,
+      "meanings_es": ["lluvia"],
+      "on_yomi": ["ウ"], "kun_yomi": ["あめ", "あま-"],
+      "mnemonic_es": "Un techo con gotas cayendo debajo — ¡lluvia visualmente representada!",
+      "vocabulary": [
+        { "word": "雨", "reading": "あめ", "meaning": "lluvia" },
+        { "word": "雨天", "reading": "うてん", "meaning": "tiempo lluvioso" }
+      ]
+    },
+    {
+      "id": "k053", "kanji": "電", "jlpt": "N5", "strokes": 13,
+      "meanings_es": ["electricidad", "rayo"],
+      "on_yomi": ["デン"], "kun_yomi": [],
+      "mnemonic_es": "Lluvia (雨) + rayo (申) — el rayo que cae durante la tormenta: electricidad natural",
+      "vocabulary": [
+        { "word": "電車", "reading": "でんしゃ", "meaning": "tren eléctrico" },
+        { "word": "電話", "reading": "でんわ", "meaning": "teléfono" },
+        { "word": "電気", "reading": "でんき", "meaning": "electricidad, luz eléctrica" }
+      ]
+    },
+    {
+      "id": "k054", "kanji": "花", "jlpt": "N5", "strokes": 7,
+      "meanings_es": ["flor"],
+      "on_yomi": ["カ"], "kun_yomi": ["はな"],
+      "mnemonic_es": "Hierba (艹) sobre transformación (化) — la planta que se transforma en flor",
+      "vocabulary": [
+        { "word": "花", "reading": "はな", "meaning": "flor" },
+        { "word": "花火", "reading": "はなび", "meaning": "fuegos artificiales" },
+        { "word": "花屋", "reading": "はなや", "meaning": "floristería" }
+      ]
+    },
+    {
+      "id": "k055", "kanji": "草", "jlpt": "N5", "strokes": 9,
+      "meanings_es": ["hierba", "pasto"],
+      "on_yomi": ["ソウ"], "kun_yomi": ["くさ"],
+      "mnemonic_es": "Hierba (艹) sobre temprano (早) — la hierba que crece rápido y temprano",
+      "vocabulary": [
+        { "word": "草", "reading": "くさ", "meaning": "hierba, pasto" },
+        { "word": "草原", "reading": "そうげん", "meaning": "pradera" }
+      ]
+    },
+    {
+      "id": "k056", "kanji": "木", "jlpt": "N5", "strokes": 4,
+      "meanings_es": ["árbol", "madera"],
+      "on_yomi": ["ボク", "モク"], "kun_yomi": ["き", "こ-"],
+      "mnemonic_es": "Un árbol con tronco vertical, ramas a los lados y raíces abajo — el kanji más natural",
+      "vocabulary": [
+        { "word": "木", "reading": "き", "meaning": "árbol" },
+        { "word": "木曜日", "reading": "もくようび", "meaning": "jueves" },
+        { "word": "木村", "reading": "きむら", "meaning": "Kimura (apellido)" }
+      ]
+    },
+    {
+      "id": "k057", "kanji": "林", "jlpt": "N5", "strokes": 8,
+      "meanings_es": ["arboleda", "bosquecillo"],
+      "on_yomi": ["リン"], "kun_yomi": ["はやし"],
+      "mnemonic_es": "Dos árboles (木木) juntos — un bosquecillo, menos denso que 森",
+      "vocabulary": [
+        { "word": "林", "reading": "はやし", "meaning": "arboleda" },
+        { "word": "林業", "reading": "りんぎょう", "meaning": "silvicultura" }
+      ]
+    },
+    {
+      "id": "k058", "kanji": "森", "jlpt": "N5", "strokes": 12,
+      "meanings_es": ["bosque", "selva"],
+      "on_yomi": ["シン"], "kun_yomi": ["もり"],
+      "mnemonic_es": "Tres árboles (木木木) — más denso que la arboleda (林), ¡un bosque de verdad!",
+      "vocabulary": [
+        { "word": "森", "reading": "もり", "meaning": "bosque" },
+        { "word": "森林", "reading": "しんりん", "meaning": "bosque, foresta" }
+      ]
+    },
+    {
+      "id": "k059", "kanji": "土", "jlpt": "N5", "strokes": 3,
+      "meanings_es": ["tierra", "suelo", "sábado (abrev.)"],
+      "on_yomi": ["ド", "ト"], "kun_yomi": ["つち"],
+      "mnemonic_es": "Una cruz sobre el suelo — algo plantado en la tierra",
+      "vocabulary": [
+        { "word": "土", "reading": "つち", "meaning": "tierra, suelo" },
+        { "word": "土曜日", "reading": "どようび", "meaning": "sábado" },
+        { "word": "土地", "reading": "とち", "meaning": "terreno" }
+      ]
+    },
+    {
+      "id": "k060", "kanji": "石", "jlpt": "N5", "strokes": 5,
+      "meanings_es": ["piedra", "roca"],
+      "on_yomi": ["セキ", "シャク"], "kun_yomi": ["いし"],
+      "mnemonic_es": "Un acantilado (厂) con una boca/cubo debajo — la piedra extraída de la roca",
+      "vocabulary": [
+        { "word": "石", "reading": "いし", "meaning": "piedra" },
+        { "word": "石油", "reading": "せきゆ", "meaning": "petróleo" }
+      ]
+    },
+    {
+      "id": "k061", "kanji": "火", "jlpt": "N5", "strokes": 4,
+      "meanings_es": ["fuego", "martes (abrev.)"],
+      "on_yomi": ["カ"], "kun_yomi": ["ひ"],
+      "mnemonic_es": "Las llamas de una hoguera — la llama central y las laterales bien visibles",
+      "vocabulary": [
+        { "word": "火", "reading": "ひ", "meaning": "fuego" },
+        { "word": "火曜日", "reading": "かようび", "meaning": "martes" },
+        { "word": "花火", "reading": "はなび", "meaning": "fuegos artificiales" }
+      ]
+    },
+    {
+      "id": "k062", "kanji": "水", "jlpt": "N5", "strokes": 4,
+      "meanings_es": ["agua", "miércoles (abrev.)"],
+      "on_yomi": ["スイ"], "kun_yomi": ["みず"],
+      "mnemonic_es": "El agua fluyendo — las líneas se ramifican como una corriente que se divide",
+      "vocabulary": [
+        { "word": "水", "reading": "みず", "meaning": "agua" },
+        { "word": "水曜日", "reading": "すいようび", "meaning": "miércoles" },
+        { "word": "水泳", "reading": "すいえい", "meaning": "natación" }
+      ]
+    },
+    {
+      "id": "k063", "kanji": "食", "jlpt": "N5", "strokes": 9,
+      "meanings_es": ["comer", "comida"],
+      "on_yomi": ["ショク", "ジキ"], "kun_yomi": ["た-べる", "く-う"],
+      "mnemonic_es": "Una tapa (亼) sobre un cuenco de comida (良) — la comida tapada lista para comer",
+      "vocabulary": [
+        { "word": "食べる", "reading": "たべる", "meaning": "comer" },
+        { "word": "食べ物", "reading": "たべもの", "meaning": "comida" },
+        { "word": "食堂", "reading": "しょくどう", "meaning": "comedor" }
+      ]
+    },
+    {
+      "id": "k064", "kanji": "飲", "jlpt": "N5", "strokes": 12,
+      "meanings_es": ["beber"],
+      "on_yomi": ["イン"], "kun_yomi": ["の-む"],
+      "mnemonic_es": "Comida (食) con un componente que indica 'aspirar' — la acción de sorber/beber",
+      "vocabulary": [
+        { "word": "飲む", "reading": "のむ", "meaning": "beber" },
+        { "word": "飲み物", "reading": "のみもの", "meaning": "bebida" }
+      ]
+    },
+    {
+      "id": "k065", "kanji": "行", "jlpt": "N5", "strokes": 6,
+      "meanings_es": ["ir", "andar", "línea (de texto)"],
+      "on_yomi": ["コウ", "ギョウ"], "kun_yomi": ["い-く", "おこな-う"],
+      "mnemonic_es": "Un cruce de caminos — el lugar desde donde se va en distintas direcciones",
+      "vocabulary": [
+        { "word": "行く", "reading": "いく", "meaning": "ir" },
+        { "word": "銀行", "reading": "ぎんこう", "meaning": "banco" },
+        { "word": "旅行", "reading": "りょこう", "meaning": "viaje" }
+      ]
+    },
+    {
+      "id": "k066", "kanji": "来", "jlpt": "N5", "strokes": 7,
+      "meanings_es": ["venir", "próximo (tiempo)"],
+      "on_yomi": ["ライ"], "kun_yomi": ["く-る", "きた-る"],
+      "mnemonic_es": "Un árbol (木) con granos extras — como las cosechas que 'vienen' en abundancia",
+      "vocabulary": [
+        { "word": "来る", "reading": "くる", "meaning": "venir" },
+        { "word": "来年", "reading": "らいねん", "meaning": "el año que viene" },
+        { "word": "来週", "reading": "らいしゅう", "meaning": "la semana que viene" }
+      ]
+    },
+    {
+      "id": "k067", "kanji": "見", "jlpt": "N5", "strokes": 7,
+      "meanings_es": ["ver", "mirar"],
+      "on_yomi": ["ケン"], "kun_yomi": ["み-る", "み-せる"],
+      "mnemonic_es": "Un ojo (目) sobre piernas (儿) — el ojo que camina y observa",
+      "vocabulary": [
+        { "word": "見る", "reading": "みる", "meaning": "ver" },
+        { "word": "見せる", "reading": "みせる", "meaning": "mostrar" },
+        { "word": "意見", "reading": "いけん", "meaning": "opinión" }
+      ]
+    },
+    {
+      "id": "k068", "kanji": "聞", "jlpt": "N5", "strokes": 14,
+      "meanings_es": ["escuchar", "preguntar", "oír"],
+      "on_yomi": ["ブン", "モン"], "kun_yomi": ["き-く", "き-こえる"],
+      "mnemonic_es": "Una puerta (門) con una oreja (耳) dentro — escuchando detrás de la puerta",
+      "vocabulary": [
+        { "word": "聞く", "reading": "きく", "meaning": "escuchar, preguntar" },
+        { "word": "新聞", "reading": "しんぶん", "meaning": "periódico" }
+      ]
+    },
+    {
+      "id": "k069", "kanji": "話", "jlpt": "N5", "strokes": 13,
+      "meanings_es": ["hablar", "historia", "conversación"],
+      "on_yomi": ["ワ"], "kun_yomi": ["はな-す", "はなし"],
+      "mnemonic_es": "Palabra (言) + lengua/idioma (舌) — las palabras que salen de la lengua al hablar",
+      "vocabulary": [
+        { "word": "話す", "reading": "はなす", "meaning": "hablar" },
+        { "word": "電話", "reading": "でんわ", "meaning": "teléfono" },
+        { "word": "会話", "reading": "かいわ", "meaning": "conversación" }
+      ]
+    },
+    {
+      "id": "k070", "kanji": "読", "jlpt": "N5", "strokes": 14,
+      "meanings_es": ["leer"],
+      "on_yomi": ["ドク", "トク", "トウ"], "kun_yomi": ["よ-む"],
+      "mnemonic_es": "Palabras (言) + vender/intercambiar (売) — leer es intercambiar ideas a través de palabras",
+      "vocabulary": [
+        { "word": "読む", "reading": "よむ", "meaning": "leer" },
+        { "word": "読書", "reading": "どくしょ", "meaning": "lectura (hábito)" }
+      ]
+    },
+    {
+      "id": "k071", "kanji": "書", "jlpt": "N5", "strokes": 10,
+      "meanings_es": ["escribir", "documento"],
+      "on_yomi": ["ショ"], "kun_yomi": ["か-く"],
+      "mnemonic_es": "Un pincel (聿) sobre el sol (日) — el escriba que trabaja con la luz del día",
+      "vocabulary": [
+        { "word": "書く", "reading": "かく", "meaning": "escribir" },
+        { "word": "教科書", "reading": "きょうかしょ", "meaning": "libro de texto" },
+        { "word": "図書館", "reading": "としょかん", "meaning": "biblioteca" }
+      ]
+    },
+    {
+      "id": "k072", "kanji": "入", "jlpt": "N5", "strokes": 2,
+      "meanings_es": ["entrar", "meter"],
+      "on_yomi": ["ニュウ"], "kun_yomi": ["い-る", "はい-る"],
+      "mnemonic_es": "Una flecha apuntando hacia adentro — el movimiento de entrar",
+      "vocabulary": [
+        { "word": "入る", "reading": "はいる", "meaning": "entrar" },
+        { "word": "入口", "reading": "いりぐち", "meaning": "entrada" },
+        { "word": "入学", "reading": "にゅうがく", "meaning": "ingreso a la escuela" }
+      ]
+    },
+    {
+      "id": "k073", "kanji": "出", "jlpt": "N5", "strokes": 5,
+      "meanings_es": ["salir", "sacar"],
+      "on_yomi": ["シュツ", "スイ"], "kun_yomi": ["で-る", "だ-す"],
+      "mnemonic_es": "Una planta que brota dos veces de la tierra — el movimiento de salir hacia afuera",
+      "vocabulary": [
+        { "word": "出る", "reading": "でる", "meaning": "salir" },
+        { "word": "出口", "reading": "でぐち", "meaning": "salida" },
+        { "word": "出発", "reading": "しゅっぱつ", "meaning": "partida, salida (viaje)" }
+      ]
+    },
+    {
+      "id": "k074", "kanji": "新", "jlpt": "N5", "strokes": 13,
+      "meanings_es": ["nuevo"],
+      "on_yomi": ["シン"], "kun_yomi": ["あたら-しい", "あら-"],
+      "mnemonic_es": "Árbol (木) + hacha (斤) + cortar — la madera recién cortada es nueva",
+      "vocabulary": [
+        { "word": "新しい", "reading": "あたらしい", "meaning": "nuevo" },
+        { "word": "新聞", "reading": "しんぶん", "meaning": "periódico" },
+        { "word": "新幹線", "reading": "しんかんせん", "meaning": "tren bala" }
+      ]
+    },
+    {
+      "id": "k075", "kanji": "古", "jlpt": "N5", "strokes": 5,
+      "meanings_es": ["viejo", "antiguo"],
+      "on_yomi": ["コ"], "kun_yomi": ["ふる-い"],
+      "mnemonic_es": "Diez (十) generaciones en la boca (口) — lo que se ha transmitido durante diez generaciones es antiguo",
+      "vocabulary": [
+        { "word": "古い", "reading": "ふるい", "meaning": "viejo, antiguo" },
+        { "word": "古典", "reading": "こてん", "meaning": "clásico, obra clásica" }
+      ]
+    },
+    {
+      "id": "k076", "kanji": "高", "jlpt": "N5", "strokes": 10,
+      "meanings_es": ["alto", "caro"],
+      "on_yomi": ["コウ"], "kun_yomi": ["たか-い", "たか-さ"],
+      "mnemonic_es": "Una torre alta con varios pisos — algo elevado que sube hacia el cielo",
+      "vocabulary": [
+        { "word": "高い", "reading": "たかい", "meaning": "alto, caro" },
+        { "word": "高校", "reading": "こうこう", "meaning": "bachillerato" },
+        { "word": "最高", "reading": "さいこう", "meaning": "el mejor, el máximo" }
+      ]
+    },
+    {
+      "id": "k077", "kanji": "安", "jlpt": "N5", "strokes": 6,
+      "meanings_es": ["barato", "tranquilo", "seguro"],
+      "on_yomi": ["アン"], "kun_yomi": ["やす-い", "やす-らか"],
+      "mnemonic_es": "Una mujer (女) bajo un techo (宀) — la mujer en casa está segura y tranquila",
+      "vocabulary": [
+        { "word": "安い", "reading": "やすい", "meaning": "barato" },
+        { "word": "安全", "reading": "あんぜん", "meaning": "seguridad, seguro" },
+        { "word": "安心", "reading": "あんしん", "meaning": "tranquilidad" }
+      ]
+    },
+    {
+      "id": "k078", "kanji": "長", "jlpt": "N5", "strokes": 8,
+      "meanings_es": ["largo", "jefe", "crecer"],
+      "on_yomi": ["チョウ"], "kun_yomi": ["なが-い", "おさ"],
+      "mnemonic_es": "Una figura con el cabello muy largo — lo que es largo, el pelo largo del anciano sabio",
+      "vocabulary": [
+        { "word": "長い", "reading": "ながい", "meaning": "largo" },
+        { "word": "社長", "reading": "しゃちょう", "meaning": "director/presidente de empresa" },
+        { "word": "校長", "reading": "こうちょう", "meaning": "director de escuela" }
+      ]
+    },
+    {
+      "id": "k079", "kanji": "多", "jlpt": "N5", "strokes": 6,
+      "meanings_es": ["mucho", "muchos"],
+      "on_yomi": ["タ"], "kun_yomi": ["おお-い"],
+      "mnemonic_es": "Dos lunas/noches (夕夕) apiladas — muchas lunas, muchas noches, mucho tiempo",
+      "vocabulary": [
+        { "word": "多い", "reading": "おおい", "meaning": "muchos, abundante" },
+        { "word": "多分", "reading": "たぶん", "meaning": "probablemente, quizás" }
+      ]
+    },
+    {
+      "id": "k080", "kanji": "何", "jlpt": "N5", "strokes": 7,
+      "meanings_es": ["qué", "cuánto"],
+      "on_yomi": ["カ"], "kun_yomi": ["なに", "なん"],
+      "mnemonic_es": "Persona (人) cargando algo (可) — ¿qué es lo que está cargando esa persona?",
+      "vocabulary": [
+        { "word": "何", "reading": "なに/なん", "meaning": "qué" },
+        { "word": "何人", "reading": "なんにん", "meaning": "cuántas personas" },
+        { "word": "何時", "reading": "なんじ", "meaning": "qué hora" }
+      ]
     }
   ]
 }
