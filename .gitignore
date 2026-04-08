@@ -1,5 +1,6 @@
 credentials.json
 data/progress/student.json
+memory/user_*.md
 ~/.config/japanese_teacher/
 *.pyc
 __pycache__/
