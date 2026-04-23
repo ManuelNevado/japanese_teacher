@@ -2,6 +2,7 @@ credentials.json
 data/progress/student.json
 memory/user_*.md
 ~/.config/japanese_teacher/
+scripts/notify_study.sh
 *.pyc
 __pycache__/
 .env
